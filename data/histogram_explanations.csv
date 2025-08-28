@@ -1,0 +1,892 @@
+feature_name,explanation_split_by_target,explanation_no_split
+deposit_type,"Distribution of Deposit Type by reservation status:
+No Deposit:
+  - Cancellation: 5769 bookings (67.1%)
+  - Check-Out: 14986 bookings (99.7%)
+Non Refund:
+  - Cancellation: 2830 bookings (32.9%)
+  - Check-Out: 22 bookings (0.1%)
+Refundable:
+  - Cancellation: 5 bookings (0.1%)
+  - Check-Out: 25 bookings (0.2%)","Distribution of Deposit Type:
+  - No Deposit: 20755 bookings (87.8%)
+  - Non Refund: 2852 bookings (12.1%)
+  - Refundable: 30 bookings (0.1%)"
+lead_time,"Distribution of Lead Time by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 0.00
+  - Max: 629.00
+  - Mean: 146.14
+  - Median: 115.00
+  - 25th percentile: 50.00
+  - 75th percentile: 214.00
+Check-Out:
+  - Count: 15033
+  - Min: 0.00
+  - Max: 709.00
+  - Mean: 80.87
+  - Median: 46.00
+  - 25th percentile: 8.00
+  - 75th percentile: 127.00","Distribution of Lead Time:
+  - Min: 0.00
+  - Max: 709.00
+  - Mean: 104.63
+  - Median: 70.00
+  - 25th percentile: 18.00
+  - 75th percentile: 162.00"
+country,"Distribution of Country by reservation status:
+AGO:
+  - Cancellation: 17 bookings (0.2%)
+  - Check-Out: 22 bookings (0.1%)
+ALB:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 4 bookings (0.0%)
+AND:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+ARE:
+  - Cancellation: 7 bookings (0.1%)
+  - Check-Out: 2 bookings (0.0%)
+ARG:
+  - Cancellation: 14 bookings (0.2%)
+  - Check-Out: 42 bookings (0.3%)
+ARM:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+ATF:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+AUS:
+  - Cancellation: 27 bookings (0.3%)
+  - Check-Out: 67 bookings (0.4%)
+AUT:
+  - Cancellation: 46 bookings (0.5%)
+  - Check-Out: 197 bookings (1.3%)
+AZE:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+BEL:
+  - Cancellation: 90 bookings (1.0%)
+  - Check-Out: 372 bookings (2.5%)
+BFA:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+BGD:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+BGR:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 11 bookings (0.1%)
+BHR:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+BIH:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+BLR:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 6 bookings (0.0%)
+BRA:
+  - Cancellation: 155 bookings (1.8%)
+  - Check-Out: 236 bookings (1.6%)
+BRB:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+CHE:
+  - Cancellation: 91 bookings (1.1%)
+  - Check-Out: 267 bookings (1.8%)
+CHL:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 11 bookings (0.1%)
+CHN:
+  - Cancellation: 89 bookings (1.0%)
+  - Check-Out: 114 bookings (0.8%)
+CMR:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 3 bookings (0.0%)
+CN:
+  - Cancellation: 47 bookings (0.5%)
+  - Check-Out: 206 bookings (1.4%)
+COL:
+  - Cancellation: 5 bookings (0.1%)
+  - Check-Out: 9 bookings (0.1%)
+CPV:
+  - Cancellation: 3 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+CUB:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+CYP:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 11 bookings (0.1%)
+CZE:
+  - Cancellation: 5 bookings (0.1%)
+  - Check-Out: 31 bookings (0.2%)
+DEU:
+  - Cancellation: 247 bookings (2.9%)
+  - Check-Out: 1251 bookings (8.4%)
+DNK:
+  - Cancellation: 21 bookings (0.2%)
+  - Check-Out: 53 bookings (0.4%)
+DOM:
+  - Cancellation: 4 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+DZA:
+  - Cancellation: 5 bookings (0.1%)
+  - Check-Out: 16 bookings (0.1%)
+ECU:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 3 bookings (0.0%)
+EGY:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 7 bookings (0.0%)
+ESP:
+  - Cancellation: 436 bookings (5.1%)
+  - Check-Out: 1290 bookings (8.6%)
+EST:
+  - Cancellation: 3 bookings (0.0%)
+  - Check-Out: 12 bookings (0.1%)
+FIN:
+  - Cancellation: 16 bookings (0.2%)
+  - Check-Out: 74 bookings (0.5%)
+FJI:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+FRA:
+  - Cancellation: 404 bookings (4.7%)
+  - Check-Out: 1650 bookings (11.0%)
+GAB:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+GBR:
+  - Cancellation: 479 bookings (5.6%)
+  - Check-Out: 1977 bookings (13.2%)
+GEO:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+GHA:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+GIB:
+  - Cancellation: 5 bookings (0.1%)
+  - Check-Out: 3 bookings (0.0%)
+GLP:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+GNB:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+GRC:
+  - Cancellation: 11 bookings (0.1%)
+  - Check-Out: 19 bookings (0.1%)
+HKG:
+  - Cancellation: 5 bookings (0.1%)
+  - Check-Out: 3 bookings (0.0%)
+HRV:
+  - Cancellation: 3 bookings (0.0%)
+  - Check-Out: 20 bookings (0.1%)
+HUN:
+  - Cancellation: 10 bookings (0.1%)
+  - Check-Out: 34 bookings (0.2%)
+IDN:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+IND:
+  - Cancellation: 11 bookings (0.1%)
+  - Check-Out: 16 bookings (0.1%)
+IRL:
+  - Cancellation: 162 bookings (1.9%)
+  - Check-Out: 500 bookings (3.3%)
+IRN:
+  - Cancellation: 6 bookings (0.1%)
+  - Check-Out: 10 bookings (0.1%)
+IRQ:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 4 bookings (0.0%)
+ISL:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 13 bookings (0.1%)
+ISR:
+  - Cancellation: 36 bookings (0.4%)
+  - Check-Out: 99 bookings (0.7%)
+ITA:
+  - Cancellation: 276 bookings (3.2%)
+  - Check-Out: 468 bookings (3.1%)
+JAM:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 4 bookings (0.0%)
+JEY:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+JOR:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 5 bookings (0.0%)
+JPN:
+  - Cancellation: 3 bookings (0.0%)
+  - Check-Out: 39 bookings (0.3%)
+KAZ:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 4 bookings (0.0%)
+KEN:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+KOR:
+  - Cancellation: 16 bookings (0.2%)
+  - Check-Out: 12 bookings (0.1%)
+KWT:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+LBN:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 4 bookings (0.0%)
+LBY:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 5 bookings (0.0%)
+LIE:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+LKA:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+LTU:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 20 bookings (0.1%)
+LUX:
+  - Cancellation: 33 bookings (0.4%)
+  - Check-Out: 39 bookings (0.3%)
+LVA:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 6 bookings (0.0%)
+MAC:
+  - Cancellation: 4 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+MAR:
+  - Cancellation: 21 bookings (0.2%)
+  - Check-Out: 34 bookings (0.2%)
+MCO:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+MDV:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+MEX:
+  - Cancellation: 4 bookings (0.0%)
+  - Check-Out: 14 bookings (0.1%)
+MKD:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+MLI:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+MLT:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+MOZ:
+  - Cancellation: 4 bookings (0.0%)
+  - Check-Out: 10 bookings (0.1%)
+MUS:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+MWI:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+MYS:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+NGA:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+NLD:
+  - Cancellation: 70 bookings (0.8%)
+  - Check-Out: 364 bookings (2.4%)
+NOR:
+  - Cancellation: 36 bookings (0.4%)
+  - Check-Out: 92 bookings (0.6%)
+NZL:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 16 bookings (0.1%)
+OMN:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 4 bookings (0.0%)
+PAK:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+PAN:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+PER:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 4 bookings (0.0%)
+PHL:
+  - Cancellation: 3 bookings (0.0%)
+  - Check-Out: 3 bookings (0.0%)
+POL:
+  - Cancellation: 48 bookings (0.6%)
+  - Check-Out: 149 bookings (1.0%)
+PRI:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+PRT:
+  - Cancellation: 5299 bookings (61.7%)
+  - Check-Out: 4216 bookings (28.2%)
+QAT:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+ROU:
+  - Cancellation: 30 bookings (0.3%)
+  - Check-Out: 70 bookings (0.5%)
+RUS:
+  - Cancellation: 50 bookings (0.6%)
+  - Check-Out: 70 bookings (0.5%)
+SAU:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 2 bookings (0.0%)
+SEN:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+SGP:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 4 bookings (0.0%)
+SLV:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+SRB:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 19 bookings (0.1%)
+SUR:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+SVK:
+  - Cancellation: 6 bookings (0.1%)
+  - Check-Out: 10 bookings (0.1%)
+SVN:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 7 bookings (0.0%)
+SWE:
+  - Cancellation: 41 bookings (0.5%)
+  - Check-Out: 165 bookings (1.1%)
+SYR:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+TGO:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+THA:
+  - Cancellation: 4 bookings (0.0%)
+  - Check-Out: 6 bookings (0.0%)
+TJK:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+TUN:
+  - Cancellation: 3 bookings (0.0%)
+  - Check-Out: 7 bookings (0.0%)
+TUR:
+  - Cancellation: 26 bookings (0.3%)
+  - Check-Out: 36 bookings (0.2%)
+TWN:
+  - Cancellation: 4 bookings (0.0%)
+  - Check-Out: 8 bookings (0.1%)
+TZA:
+  - Cancellation: 2 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+UGA:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+UKR:
+  - Cancellation: 5 bookings (0.1%)
+  - Check-Out: 8 bookings (0.1%)
+UMI:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+URY:
+  - Cancellation: 0 bookings (0.0%)
+  - Check-Out: 4 bookings (0.0%)
+USA:
+  - Cancellation: 91 bookings (1.1%)
+  - Check-Out: 298 bookings (2.0%)
+VNM:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 1 bookings (0.0%)
+ZAF:
+  - Cancellation: 3 bookings (0.0%)
+  - Check-Out: 12 bookings (0.1%)","Distribution of Country:
+  - AGO: 39 bookings (0.2%)
+  - ALB: 4 bookings (0.0%)
+  - AND: 1 bookings (0.0%)
+  - ARE: 9 bookings (0.0%)
+  - ARG: 56 bookings (0.2%)
+  - ARM: 1 bookings (0.0%)
+  - ATF: 1 bookings (0.0%)
+  - AUS: 94 bookings (0.4%)
+  - AUT: 243 bookings (1.0%)
+  - AZE: 2 bookings (0.0%)
+  - BEL: 462 bookings (2.0%)
+  - BFA: 1 bookings (0.0%)
+  - BGD: 2 bookings (0.0%)
+  - BGR: 11 bookings (0.0%)
+  - BHR: 2 bookings (0.0%)
+  - BIH: 3 bookings (0.0%)
+  - BLR: 8 bookings (0.0%)
+  - BRA: 391 bookings (1.7%)
+  - BRB: 1 bookings (0.0%)
+  - CHE: 358 bookings (1.5%)
+  - CHL: 12 bookings (0.1%)
+  - CHN: 203 bookings (0.9%)
+  - CMR: 3 bookings (0.0%)
+  - CN: 253 bookings (1.1%)
+  - COL: 14 bookings (0.1%)
+  - CPV: 4 bookings (0.0%)
+  - CUB: 1 bookings (0.0%)
+  - CYP: 12 bookings (0.1%)
+  - CZE: 36 bookings (0.2%)
+  - DEU: 1498 bookings (6.4%)
+  - DNK: 74 bookings (0.3%)
+  - DOM: 4 bookings (0.0%)
+  - DZA: 21 bookings (0.1%)
+  - ECU: 4 bookings (0.0%)
+  - EGY: 8 bookings (0.0%)
+  - ESP: 1726 bookings (7.3%)
+  - EST: 15 bookings (0.1%)
+  - FIN: 90 bookings (0.4%)
+  - FJI: 1 bookings (0.0%)
+  - FRA: 2054 bookings (8.7%)
+  - GAB: 1 bookings (0.0%)
+  - GBR: 2456 bookings (10.4%)
+  - GEO: 3 bookings (0.0%)
+  - GHA: 2 bookings (0.0%)
+  - GIB: 8 bookings (0.0%)
+  - GLP: 1 bookings (0.0%)
+  - GNB: 2 bookings (0.0%)
+  - GRC: 30 bookings (0.1%)
+  - HKG: 8 bookings (0.0%)
+  - HRV: 23 bookings (0.1%)
+  - HUN: 44 bookings (0.2%)
+  - IDN: 1 bookings (0.0%)
+  - IND: 27 bookings (0.1%)
+  - IRL: 662 bookings (2.8%)
+  - IRN: 16 bookings (0.1%)
+  - IRQ: 4 bookings (0.0%)
+  - ISL: 13 bookings (0.1%)
+  - ISR: 135 bookings (0.6%)
+  - ITA: 744 bookings (3.2%)
+  - JAM: 4 bookings (0.0%)
+  - JEY: 2 bookings (0.0%)
+  - JOR: 6 bookings (0.0%)
+  - JPN: 42 bookings (0.2%)
+  - KAZ: 4 bookings (0.0%)
+  - KEN: 3 bookings (0.0%)
+  - KOR: 28 bookings (0.1%)
+  - KWT: 2 bookings (0.0%)
+  - LBN: 6 bookings (0.0%)
+  - LBY: 5 bookings (0.0%)
+  - LIE: 2 bookings (0.0%)
+  - LKA: 1 bookings (0.0%)
+  - LTU: 22 bookings (0.1%)
+  - LUX: 72 bookings (0.3%)
+  - LVA: 6 bookings (0.0%)
+  - MAC: 4 bookings (0.0%)
+  - MAR: 55 bookings (0.2%)
+  - MCO: 2 bookings (0.0%)
+  - MDV: 3 bookings (0.0%)
+  - MEX: 18 bookings (0.1%)
+  - MKD: 1 bookings (0.0%)
+  - MLI: 1 bookings (0.0%)
+  - MLT: 3 bookings (0.0%)
+  - MOZ: 14 bookings (0.1%)
+  - MUS: 1 bookings (0.0%)
+  - MWI: 1 bookings (0.0%)
+  - MYS: 2 bookings (0.0%)
+  - NGA: 3 bookings (0.0%)
+  - NLD: 434 bookings (1.8%)
+  - NOR: 128 bookings (0.5%)
+  - NZL: 18 bookings (0.1%)
+  - OMN: 4 bookings (0.0%)
+  - PAK: 2 bookings (0.0%)
+  - PAN: 2 bookings (0.0%)
+  - PER: 4 bookings (0.0%)
+  - PHL: 6 bookings (0.0%)
+  - POL: 197 bookings (0.8%)
+  - PRI: 2 bookings (0.0%)
+  - PRT: 9515 bookings (40.4%)
+  - QAT: 1 bookings (0.0%)
+  - ROU: 100 bookings (0.4%)
+  - RUS: 120 bookings (0.5%)
+  - SAU: 4 bookings (0.0%)
+  - SEN: 2 bookings (0.0%)
+  - SGP: 6 bookings (0.0%)
+  - SLV: 1 bookings (0.0%)
+  - SRB: 19 bookings (0.1%)
+  - SUR: 1 bookings (0.0%)
+  - SVK: 16 bookings (0.1%)
+  - SVN: 8 bookings (0.0%)
+  - SWE: 206 bookings (0.9%)
+  - SYR: 1 bookings (0.0%)
+  - TGO: 1 bookings (0.0%)
+  - THA: 10 bookings (0.0%)
+  - TJK: 2 bookings (0.0%)
+  - TUN: 10 bookings (0.0%)
+  - TUR: 62 bookings (0.3%)
+  - TWN: 12 bookings (0.1%)
+  - TZA: 3 bookings (0.0%)
+  - UGA: 1 bookings (0.0%)
+  - UKR: 13 bookings (0.1%)
+  - UMI: 1 bookings (0.0%)
+  - URY: 4 bookings (0.0%)
+  - USA: 389 bookings (1.7%)
+  - VNM: 2 bookings (0.0%)
+  - ZAF: 15 bookings (0.1%)"
+total_of_special_requests,"Distribution of Total Of Special Requests by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 0.00
+  - Max: 5.00
+  - Mean: 0.33
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00
+Check-Out:
+  - Count: 15033
+  - Min: 0.00
+  - Max: 5.00
+  - Mean: 0.71
+  - Median: 1.00
+  - 25th percentile: 0.00
+  - 75th percentile: 1.00","Distribution of Total Of Special Requests:
+  - Min: 0.00
+  - Max: 5.00
+  - Mean: 0.57
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 1.00"
+adr,"Distribution of ADR by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 0.00
+  - Max: 369.00
+  - Mean: 104.70
+  - Median: 96.00
+  - 25th percentile: 72.25
+  - 75th percentile: 126.66
+Check-Out:
+  - Count: 15033
+  - Min: 0.00
+  - Max: 388.00
+  - Mean: 99.74
+  - Median: 92.00
+  - 25th percentile: 67.00
+  - 75th percentile: 125.10","Distribution of ADR:
+  - Min: 0.00
+  - Max: 388.00
+  - Mean: 101.55
+  - Median: 94.50
+  - 25th percentile: 68.40
+  - 75th percentile: 126.00"
+arrival_date_week_number,"Distribution of Arrival Date Week Number by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 1.00
+  - Max: 53.00
+  - Mean: 27.46
+  - Median: 28.00
+  - 25th percentile: 17.00
+  - 75th percentile: 38.00
+Check-Out:
+  - Count: 15033
+  - Min: 1.00
+  - Max: 53.00
+  - Mean: 27.08
+  - Median: 28.00
+  - 25th percentile: 15.00
+  - 75th percentile: 38.00","Distribution of Arrival Date Week Number:
+  - Min: 1.00
+  - Max: 53.00
+  - Mean: 27.22
+  - Median: 28.00
+  - 25th percentile: 16.00
+  - 75th percentile: 38.00"
+market_segment,"Distribution of Market Segment by reservation status:
+Aviation:
+  - Cancellation: 5 bookings (0.1%)
+  - Check-Out: 33 bookings (0.2%)
+Complementary:
+  - Cancellation: 18 bookings (0.2%)
+  - Check-Out: 132 bookings (0.9%)
+Corporate:
+  - Cancellation: 175 bookings (2.0%)
+  - Check-Out: 852 bookings (5.7%)
+Direct:
+  - Cancellation: 348 bookings (4.0%)
+  - Check-Out: 2103 bookings (14.0%)
+Groups:
+  - Cancellation: 2386 bookings (27.7%)
+  - Check-Out: 1535 bookings (10.2%)
+Offline TA/TO:
+  - Cancellation: 1585 bookings (18.4%)
+  - Check-Out: 3259 bookings (21.7%)
+Online TA:
+  - Cancellation: 4086 bookings (47.5%)
+  - Check-Out: 7119 bookings (47.4%)","Distribution of Market Segment:
+  - Aviation: 38 bookings (0.2%)
+  - Complementary: 150 bookings (0.6%)
+  - Corporate: 1027 bookings (4.3%)
+  - Direct: 2451 bookings (10.4%)
+  - Groups: 3921 bookings (16.6%)
+  - Offline TA/TO: 4844 bookings (20.5%)
+  - Online TA: 11205 bookings (47.4%)"
+arrival_date_day_of_month,"Distribution of Arrival Date Day Of Month by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 1.00
+  - Max: 31.00
+  - Mean: 15.64
+  - Median: 16.00
+  - 25th percentile: 8.00
+  - 75th percentile: 23.00
+Check-Out:
+  - Count: 15033
+  - Min: 1.00
+  - Max: 31.00
+  - Mean: 15.88
+  - Median: 16.00
+  - 25th percentile: 8.00
+  - 75th percentile: 24.00","Distribution of Arrival Date Day Of Month:
+  - Min: 1.00
+  - Max: 31.00
+  - Mean: 15.79
+  - Median: 16.00
+  - 25th percentile: 8.00
+  - 75th percentile: 24.00"
+previous_cancellations,"Distribution of Previous Cancellations by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 0.00
+  - Max: 26.00
+  - Mean: 0.20
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00
+Check-Out:
+  - Count: 15033
+  - Min: 0.00
+  - Max: 13.00
+  - Mean: 0.02
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00","Distribution of Previous Cancellations:
+  - Min: 0.00
+  - Max: 26.00
+  - Mean: 0.08
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00"
+arrival_date_month,"Distribution of Arrival Date Month by reservation status:
+April:
+  - Cancellation: 832 bookings (9.7%)
+  - Check-Out: 1297 bookings (8.6%)
+August:
+  - Cancellation: 1045 bookings (12.1%)
+  - Check-Out: 1746 bookings (11.6%)
+December:
+  - Cancellation: 464 bookings (5.4%)
+  - Check-Out: 907 bookings (6.0%)
+February:
+  - Cancellation: 514 bookings (6.0%)
+  - Check-Out: 1079 bookings (7.2%)
+January:
+  - Cancellation: 344 bookings (4.0%)
+  - Check-Out: 839 bookings (5.6%)
+July:
+  - Cancellation: 908 bookings (10.6%)
+  - Check-Out: 1616 bookings (10.7%)
+June:
+  - Cancellation: 901 bookings (10.5%)
+  - Check-Out: 1245 bookings (8.3%)
+March:
+  - Cancellation: 642 bookings (7.5%)
+  - Check-Out: 1329 bookings (8.8%)
+May:
+  - Cancellation: 874 bookings (10.2%)
+  - Check-Out: 1427 bookings (9.5%)
+November:
+  - Cancellation: 419 bookings (4.9%)
+  - Check-Out: 909 bookings (6.0%)
+October:
+  - Cancellation: 847 bookings (9.8%)
+  - Check-Out: 1396 bookings (9.3%)
+September:
+  - Cancellation: 814 bookings (9.5%)
+  - Check-Out: 1243 bookings (8.3%)","Distribution of Arrival Date Month:
+  - April: 2129 bookings (9.0%)
+  - August: 2791 bookings (11.8%)
+  - December: 1371 bookings (5.8%)
+  - February: 1593 bookings (6.7%)
+  - January: 1183 bookings (5.0%)
+  - July: 2524 bookings (10.7%)
+  - June: 2146 bookings (9.1%)
+  - March: 1971 bookings (8.3%)
+  - May: 2301 bookings (9.7%)
+  - November: 1328 bookings (5.6%)
+  - October: 2243 bookings (9.5%)
+  - September: 2057 bookings (8.7%)"
+stays_in_week_nights,"Distribution of Stays In Week Nights by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 0.00
+  - Max: 20.00
+  - Mean: 2.53
+  - Median: 2.00
+  - 25th percentile: 1.00
+  - 75th percentile: 3.00
+Check-Out:
+  - Count: 15033
+  - Min: 0.00
+  - Max: 26.00
+  - Mean: 2.44
+  - Median: 2.00
+  - 25th percentile: 1.00
+  - 75th percentile: 3.00","Distribution of Stays In Week Nights:
+  - Min: 0.00
+  - Max: 26.00
+  - Mean: 2.48
+  - Median: 2.00
+  - 25th percentile: 1.00
+  - 75th percentile: 3.00"
+booking_changes,"Distribution of Booking Changes by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 0.00
+  - Max: 10.00
+  - Mean: 0.10
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00
+Check-Out:
+  - Count: 15033
+  - Min: 0.00
+  - Max: 20.00
+  - Mean: 0.30
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00","Distribution of Booking Changes:
+  - Min: 0.00
+  - Max: 20.00
+  - Mean: 0.22
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00"
+stays_in_weekend_nights,"Distribution of Stays In Weekend Nights by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 0.00
+  - Max: 8.00
+  - Mean: 0.92
+  - Median: 1.00
+  - 25th percentile: 0.00
+  - 75th percentile: 2.00
+Check-Out:
+  - Count: 15033
+  - Min: 0.00
+  - Max: 12.00
+  - Mean: 0.93
+  - Median: 1.00
+  - 25th percentile: 0.00
+  - 75th percentile: 2.00","Distribution of Stays In Weekend Nights:
+  - Min: 0.00
+  - Max: 12.00
+  - Mean: 0.93
+  - Median: 1.00
+  - 25th percentile: 0.00
+  - 75th percentile: 2.00"
+reserved_room_type,"Distribution of Reserved Room Type by reservation status:
+Deluxe Room:
+  - Cancellation: 78 bookings (0.9%)
+  - Check-Out: 150 bookings (1.0%)
+Executive Room:
+  - Cancellation: 415 bookings (4.8%)
+  - Check-Out: 902 bookings (6.0%)
+Family Room:
+  - Cancellation: 64 bookings (0.7%)
+  - Check-Out: 118 bookings (0.8%)
+Junior Suite:
+  - Cancellation: 44 bookings (0.5%)
+  - Check-Out: 55 bookings (0.4%)
+Penthouse Suite:
+  - Cancellation: 134 bookings (1.6%)
+  - Check-Out: 279 bookings (1.9%)
+Presidential Suite:
+  - Cancellation: 1 bookings (0.0%)
+  - Check-Out: 0 bookings (0.0%)
+Standard Room:
+  - Cancellation: 6478 bookings (75.3%)
+  - Check-Out: 10472 bookings (69.7%)
+Suite Room:
+  - Cancellation: 1227 bookings (14.3%)
+  - Check-Out: 2637 bookings (17.5%)
+Superior Room:
+  - Cancellation: 163 bookings (1.9%)
+  - Check-Out: 420 bookings (2.8%)","Distribution of Reserved Room Type:
+  - Deluxe Room: 228 bookings (1.0%)
+  - Executive Room: 1317 bookings (5.6%)
+  - Family Room: 182 bookings (0.8%)
+  - Junior Suite: 99 bookings (0.4%)
+  - Penthouse Suite: 413 bookings (1.7%)
+  - Presidential Suite: 1 bookings (0.0%)
+  - Standard Room: 16950 bookings (71.7%)
+  - Suite Room: 3864 bookings (16.3%)
+  - Superior Room: 583 bookings (2.5%)"
+adults,"Distribution of Adults by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 0.00
+  - Max: 26.00
+  - Mean: 1.91
+  - Median: 2.00
+  - 25th percentile: 2.00
+  - 75th percentile: 2.00
+Check-Out:
+  - Count: 15033
+  - Min: 0.00
+  - Max: 4.00
+  - Mean: 1.83
+  - Median: 2.00
+  - 25th percentile: 2.00
+  - 75th percentile: 2.00","Distribution of Adults:
+  - Min: 0.00
+  - Max: 26.00
+  - Mean: 1.86
+  - Median: 2.00
+  - 25th percentile: 2.00
+  - 75th percentile: 2.00"
+hotel,"Distribution of Hotel by reservation status:
+City Hotel:
+  - Cancellation: 6420 bookings (74.6%)
+  - Check-Out: 9169 bookings (61.0%)
+Resort Hotel:
+  - Cancellation: 2184 bookings (25.4%)
+  - Check-Out: 5864 bookings (39.0%)","Distribution of Hotel:
+  - City Hotel: 15589 bookings (66.0%)
+  - Resort Hotel: 8048 bookings (34.0%)"
+children,"Distribution of Children by reservation status:
+Cancellation:
+  - Count: 8604
+  - Min: 0.00
+  - Max: 3.00
+  - Mean: 0.10
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00
+Check-Out:
+  - Count: 15033
+  - Min: 0.00
+  - Max: 3.00
+  - Mean: 0.10
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00","Distribution of Children:
+  - Min: 0.00
+  - Max: 3.00
+  - Mean: 0.10
+  - Median: 0.00
+  - 25th percentile: 0.00
+  - 75th percentile: 0.00"

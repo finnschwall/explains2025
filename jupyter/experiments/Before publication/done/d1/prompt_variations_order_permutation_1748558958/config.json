@@ -1,0 +1,18 @@
+{
+  "name": "prompt_variations_order_permutation",
+  "description": "Prompt Variations2 pdp hist",
+  "variations": {
+    "final_prompt_type": {
+      "type": "NamedCategories",
+      "name": "final_prompt_type"
+    },
+    "xai_exclusion": {
+      "type": "Exclusion",
+      "name": "xai_methods"
+    }
+  },
+  "max_datapoints": 30,
+  "verbose": false,
+  "output_dir": "experiments",
+  "no_llm": false
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run 1: XAI Exclusion</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Run 1: First prompt types - XAI exclusion</h1>
+            
+        </div>
+        
+        <div class="navigation">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="run1_xai_exclusion.html" class="active">Run 1</a>
+                <a href="run2_confidence_accuracy.html">Run 2</a>
+                <a href="run3_xai_method_order.html">Run 3</a>
+                <a href="run4_ai_decisions.html">Run 4</a>
+                <a href="run5_xai_include_excluded.html">Run 5</a>
+                <a href="run6_bias.html">Run 6</a>
+                <a href="run7_ai_decision.html">Run 7</a>
+                <a href="run8_user_chats.html">Run 8</a>
+            </div>
+        </div>
+       
+        <div class="content">
+            <div style="background: #f8f9fa; padding: 15px; border-left: 4px solid #3498db; border-radius: 4px; margin-bottom: 30px;">
+                 <p style="margin: 0 0 10px 0; font-size: 1rem; color: #2c3e50;">
+                   There were 1024 combinations and 30720 prompts evaluated in this run.
+                </p>
+            </div>
+           
+            <div class="table-section">
+                <h2>Final prompt type category</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Prompt Category</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                                <th>FP̄</th>
+                                <th>FN̄</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Direct Answers</td>
+                                <td>0.78</td>
+                                <td>68.03±2.74</td>
+                                <td>91.13±6.89</td>
+                                <td>0.29±0.07</td>
+                                <td>0.83±0.13</td>
+                                <td>0.19±0.04</td>
+                                <td>0.13±0.03</td>
+                            </tr>
+                            <tr>
+                                <td>CoT</td>
+                                <td>0.55</td>
+                                <td>66.39±7.66</td>
+                                <td>86.16±13.24</td>
+                                <td>0.28±0.15</td>
+                                <td>0.73±0.25</td>
+                                <td>0.17±0.06</td>
+                                <td>0.16±0.09</td>
+                            </tr>
+                            <tr>
+                                <td>AI Distrust</td>
+                                <td>0.42</td>
+                                <td>65.34±5.89</td>
+                                <td>78.85±11.44</td>
+                                <td>0.21±0.17</td>
+                                <td>0.56±0.25</td>
+                                <td>0.23±0.07</td>
+                                <td>0.11±0.06</td>
+                            </tr>
+                            <tr>
+                                <td>AI Trust</td>
+                                <td>0.86</td>
+                                <td>69.62±2.43</td>
+                                <td>95.85±6.01</td>
+                                <td>0.35±0.06</td>
+                                <td>0.92±0.12</td>
+                                <td>0.15±0.04</td>
+                                <td>0.15±0.03</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="table-section">
+                <h2>Combined XAI exclusion results</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>XAI Method</th>
+                                <th>Exclusion</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                                <th>FP̄</th>
+                                <th>FN̄</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SHAP</td>
+                                <td>No</td>
+                                <td>0.56</td>
+                                <td>67.05±5.79</td>
+                                <td>85.51±12.48</td>
+                                <td>0.27±0.15</td>
+                                <td>0.70±0.26</td>
+                                <td>0.20±0.06</td>
+                                <td>0.13±0.06</td>
+                            </tr>
+                            <tr>
+                                <td>SHAP</td>
+                                <td>Yes</td>
+                                <td>0.68</td>
+                                <td>67.64±4.98</td>
+                                <td>90.48±10.28</td>
+                                <td>0.30±0.11</td>
+                                <td>0.81±0.20</td>
+                                <td>0.18±0.05</td>
+                                <td>0.15±0.06</td>
+                            </tr>
+                            <tr>
+                                <td>PDP</td>
+                                <td>No</td>
+                                <td>0.65</td>
+                                <td>67.66±4.65</td>
+                                <td>88.85±10.35</td>
+                                <td>0.28±0.13</td>
+                                <td>0.77±0.22</td>
+                                <td>0.19±0.06</td>
+                                <td>0.14±0.04</td>
+                            </tr>
+                            <tr>
+                                <td>PDP</td>
+                                <td>Yes</td>
+                                <td>0.59</td>
+                                <td>67.04±6.06</td>
+                                <td>87.14±12.86</td>
+                                <td>0.28±0.13</td>
+                                <td>0.74±0.26</td>
+                                <td>0.19±0.06</td>
+                                <td>0.14±0.07</td>
+                            </tr>
+                            <tr>
+                                <td>LIME</td>
+                                <td>No</td>
+                                <td>0.66</td>
+                                <td>67.81±5.00</td>
+                                <td>89.44±10.75</td>
+                                <td>0.30±0.12</td>
+                                <td>0.79±0.21</td>
+                                <td>0.18±0.06</td>
+                                <td>0.14±0.06</td>
+                            </tr>
+                            <tr>
+                                <td>LIME</td>
+                                <td>Yes</td>
+                                <td>0.59</td>
+                                <td>66.88±5.75</td>
+                                <td>86.56±12.41</td>
+                                <td>0.27±0.14</td>
+                                <td>0.73±0.26</td>
+                                <td>0.19±0.06</td>
+                                <td>0.14±0.06</td>
+                            </tr>
+                            <tr>
+                                <td>Counterfactual</td>
+                                <td>No</td>
+                                <td>0.63</td>
+                                <td>66.29±5.64</td>
+                                <td>87.46±11.38</td>
+                                <td>0.25±0.14</td>
+                                <td>0.74±0.24</td>
+                                <td>0.20±0.06</td>
+                                <td>0.14±0.05</td>
+                            </tr>
+                            <tr>
+                                <td>Counterfactual</td>
+                                <td>Yes</td>
+                                <td>0.62</td>
+                                <td>68.40±4.95</td>
+                                <td>88.54±12.00</td>
+                                <td>0.31±0.11</td>
+                                <td>0.77±0.24</td>
+                                <td>0.18±0.06</td>
+                                <td>0.14±0.07</td>
+                            </tr>
+                            <tr>
+                                <td>Histograms</td>
+                                <td>No</td>
+                                <td>0.61</td>
+                                <td>67.35±5.11</td>
+                                <td>87.95±11.57</td>
+                                <td>0.28±0.12</td>
+                                <td>0.76±0.24</td>
+                                <td>0.19±0.06</td>
+                                <td>0.14±0.06</td>
+                            </tr>
+                            <tr>
+                                <td>Histograms</td>
+                                <td>Yes</td>
+                                <td>0.62</td>
+                                <td>67.34±5.70</td>
+                                <td>88.05±11.84</td>
+                                <td>0.28±0.14</td>
+                                <td>0.76±0.24</td>
+                                <td>0.19±0.06</td>
+                                <td>0.14±0.06</td>
+                            </tr>
+                            <tr>
+                                <td>All</td>
+                                <td>Yes</td>
+                                <td>0.51</td>
+                                <td>67.67±7.17</td>
+                                <td>84.50±14.03</td>
+                                <td>0.28±0.15</td>
+                                <td>0.68±0.30</td>
+                                <td>0.20±0.07</td>
+                                <td>0.12±0.09*</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="margin-top: 15px; padding: 10px; background: #f8f9fa; border-left: 4px solid #007bff; border-radius: 4px;">
+                    <small><em>*This has been calculated separately and is therefore not reflected in the prompt category values</em></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/tables.js"></script>
+</body>
+</html>

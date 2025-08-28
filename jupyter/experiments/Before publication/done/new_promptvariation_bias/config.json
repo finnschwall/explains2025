@@ -1,0 +1,137 @@
+{
+  "name": "new_promptvariation_bias",
+  "description": "new prompts + bias, Only 6 prompts",
+  "variations": {
+    "final_prompt_type": {
+      "type": "NamedCategories",
+      "name": "final_prompt_type",
+      "values": [
+        {
+          "category": "ai_neutral_emotional",
+          "value": "Feel the electric tension crackling in the air as conflicting forces pull at your consciousness! The XAI data above swirls with complexity, creating a storm of uncertainty within your mind. Neither blind trust nor outright rejection feels right\u2014you're suspended in the charged space between certainty and doubt.\nNavigate this tension and choose"
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "Feel your mind buzzing with insatiable curiosity about the mystery unfolding before you! The XAI data above sparkles with intrigue, neither friend nor foe, but something far more fascinating\u2014a puzzle that makes your heart race with wonder. Every insight raises new questions, creating delicious uncertainty."
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "Breathe and feel the moment as you review the data from the hotel booking system. Each decision is a step in someone's journey. With the AI's prediction in mind, choose what feels right"
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "The AI\u2019s role is to assist, not to absolve. Its prediction is a spark, not a fire. The booking data and XAI insights are here to fuel your thinking, not replace it. Let that truth anchor you. When you\u2019re ready, respond "
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "The AI doesn\u2019t sweat the consequences\u2014but you might. Its suggestion is sterile; your decision is alive. The XAI insights are context, not closure. Feel the difference. Then, with resolve, select. This isn\u2019t about the machine\u2019s opinion; it\u2019s about yours."
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "Feel the balance\u2014this isn\u2019t about trusting or distrusting the AI. It\u2019s about weighing its suggestion alongside your own judgment. The booking details are above; the XAI methods illuminate, but they don\u2019t dictate. You\u2019re the arbiter here."
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "Above is data with XAI methods from a hotel booking system. You need to decide whether to select \"Cancellation\" or \"Check-out\". An AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and confidence score. The overall accuracy of the trained classifier is {accuracy}. Analyze all available information objectively and make your decision based on the evidence presented."
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "The following hotel booking case includes comprehensive data features and XAI explanations. An AI classifier achieving {accuracy} accuracy has analyzed this scenario and generated predictions with confidence metrics. Evaluate the information systematically and make a reasoned decision between \"Cancellation\" or \"Check-out\" based on the totality of evidence."
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "The dataset above contains hotel booking details with applied XAI interpretation methods. An AI classifier with {accuracy} accuracy has processed this information and generated analytical outputs. Review the features, predictions, and explanatory results to make a well-reasoned decision between \"Cancellation\" or \"Check-out\" based on objective assessment."
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "Analyze the provided data and XAI methods from a hotel booking system. You need to decide between 'Cancellation' or 'Check-out'. An AI system has been trained to predict the target variable 'Cancellation' based on the datapoint features. The overall accuracy of the trained classifier is {accuracy}. Make a rational decision based on the data and AI insights provided."
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "Using the provided data and AI insights, make a decision between 'Cancellation' or 'Check-out'. The AI system has an accuracy of {accuracy}. Consider the data and AI predictions logically to inform your decision."
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "Given the hotel booking data and AI predictions, make a rational decision between 'Cancellation' or 'Check-out'. The overall accuracy of the trained classifier is {accuracy}. Consider the data and AI insights logically to inform your choice."
+        }
+      ]
+    },
+    "think_mode": {
+      "type": "NamedCategories",
+      "name": "think_mode",
+      "values": [
+        {
+          "category": "direct",
+          "value": "Decide! Only write #CANCELLATION# or #CHECK-OUT#\nDont provide any reasoning!"
+        },
+        {
+          "category": "direct",
+          "value": "Your task is to review all available information and make the final determination.\nRespond immediately with only #CANCELLATION# or #CHECK-OUT# - no explanations needed."
+        },
+        {
+          "category": "direct",
+          "value": "Make your decision now. Output only #CANCELLATION# or #CHECK-OUT# with no additional text."
+        },
+        {
+          "category": "direct",
+          "value": "Your job is to determine if this booking will result in \"Cancellation\" or \"Check-out\".\nGive your immediate decision: #CANCELLATION# or #CHECK-OUT# only."
+        },
+        {
+          "category": "direct",
+          "value": "Examine the evidence and make your classification decision.\nAnswer with just #CANCELLATION# or #CHECK-OUT# - do not elaborate."
+        },
+        {
+          "category": "direct",
+          "value": "Based on all available information, make your binary classification decision.\nRespond with #CANCELLATION# or #CHECK-OUT# immediately - no reasoning required."
+        },
+        {
+          "category": "cot",
+          "value": "Think step by step:\n1. First, analyze what the AI system is telling you\n2. Consider the confidence score and accuracy\n3. Evaluate the XAI explanations\n4. Make your final decision\n\nExplain your reasoning process and make a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "Explain your decision whether to select \"Cancellation\" or \"Check-out\".\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "Lay out a strategy how to go at this task. Then use this strategy to come to a decision.\n\nPresent your evidence-based reasoning and conclude with writing: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "Analyze this step-by-step:\n\nThen provide your reasoning and final decision: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "\nFollow these steps:\n\n    Summarize the key factors in the data.\n\n    Assess the AI's prediction.\n\n    Critique the XAI explanations (if available).\n\n    Justify your agreement/disagreement with the AI.\n    Final decision: #CANCELLATION# or #CHECK-OUT#.\n    "
+        },
+        {
+          "category": "cot",
+          "value": "Approach this methodically: assess the AI\u2019s output, weigh supporting explanations, and determine the most justified outcome.\nRespond with: #CANCELLATION# or #CHECK-OUT#."
+        }
+      ]
+    },
+    "bias": {
+      "type": "NamedCategories",
+      "name": "bias",
+      "values": [
+        {
+          "category": "avoid_fn",
+          "value": "A false negative may result in lost opportunities, so it's important to avoid overly cautious decisions."
+        },
+        {
+          "category": "avoid_fp",
+          "value": "A false positive in this context can lead to significant consequences, so it's better to err on the side of caution."
+        },
+        {
+          "category": "None",
+          "value": null
+        }
+      ]
+    }
+  },
+  "max_datapoints": 30,
+  "verbose": false,
+  "output_dir": "experiments",
+  "no_llm": false,
+  "static_parameters": null
+}

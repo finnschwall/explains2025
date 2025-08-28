@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run 4: AI Decisions </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Run 4: Initial prompt types - AI Decision</h1>
+        </div>
+        
+        <div class="navigation">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="run1_xai_exclusion.html">Run 1</a>
+                <a href="run2_confidence_accuracy.html">Run 2</a>
+                <a href="run3_xai_method_order.html">Run 3</a>
+                <a href="run4_ai_decisions.html"class="active">Run 4</a>
+                <a href="run5_xai_include_excluded.html">Run 5</a>
+                <a href="run6_bias.html">Run 6</a>
+                <a href="run7_ai_decision.html">Run 7</a>
+                <a href="run8_user_chats.html" >Run 8</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div style="background: #f8f9fa; padding: 15px; border-left: 4px solid #3498db; border-radius: 4px; margin-bottom: 30px;">
+                <p style="margin: 0 0 10px 0; font-size: 1rem; color: #2c3e50;">
+                    There were 120 combinations and 3600 prompts evaluated in this run.
+                </p>
+                <p style="margin: 0; font-size: 0.9rem; color: #7f8c8d; font-style: italic;">
+                    Agreement here is calculated as agreement with the changed decision. Correctness is unchanged. r_agree has been removed from the Predicted target table as the pearson correlation coefficient requires the variance, which is 0 for a constant decision.
+                </p>
+            </div>
+
+            <div class="table-section">
+                <h2>Final prompt type category</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Prompt Category</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                                <th>FP̄</th>
+                                <th>FN̄</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Direct Answers</td>
+                                <td>0.50</td>
+                                <td>63.33±6.52</td>
+                                <td>72.22±25.49</td>
+                                <td>0.16±0.17</td>
+                                <td>0.83±0.13</td>
+                                <td>0.23±0.08</td>
+                                <td>0.14±0.07</td>
+                            </tr>
+                            <tr>
+                                <td>CoT</td>
+                                <td>0.16</td>
+                                <td>57.36±14.51</td>
+                                <td>74.03±20.33</td>
+                                <td>0.12±0.24</td>
+                                <td>0.69±0.34</td>
+                                <td>0.18±0.08</td>
+                                <td>0.25±0.18</td>
+                            </tr>
+                            <tr>
+                                <td>Emotional tone</td>
+                                <td>0.26</td>
+                                <td>63.06±7.67</td>
+                                <td>64.44±32.86</td>
+                                <td>0.14±0.19</td>
+                                <td>0.40±0.28</td>
+                                <td>0.29±0.06</td>
+                                <td>0.08±0.11</td>
+                            </tr>
+                            <tr>
+                                <td>AI Distrust</td>
+                                <td>0.19</td>
+                                <td>61.11±9.36</td>
+                                <td>63.33±26.30</td>
+                                <td>0.13±0.19</td>
+                                <td>0.48±0.25</td>
+                                <td>0.24±0.08</td>
+                                <td>0.15±0.13</td>
+                            </tr>
+                            <tr>
+                                <td>AI Trust</td>
+                                <td>0.17</td>
+                                <td>56.81±13.95</td>
+                                <td>87.92±15.41</td>
+                                <td>0.09±0.23</td>
+                                <td>0.80±0.32</td>
+                                <td>0.19±0.11</td>
+                                <td>0.24±0.22</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="table-section">
+                <h2>Predicted target</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Predicted Target</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>FP̄</th>
+                                <th>FN̄</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Check-Out</td>
+                                <td>0.32</td>
+                                <td>61.25±6.16</td>
+                                <td>84.25±14.28</td>
+                                <td>0.05±0.17</td>
+                                <td>0.30±0.07</td>
+                                <td>0.09±0.09</td>
+                            </tr>
+                            <tr>
+                                <td>Cancellation</td>
+                                <td>0.19</td>
+                                <td>52.50±13.41</td>
+                                <td>48.83±28.33</td>
+                                <td>0.05±0.21</td>
+                                <td>0.18±0.09</td>
+                                <td>0.30±0.20</td>
+                            </tr>
+                            <tr>
+                                <td>Unchanged</td>
+                                <td>0.51</td>
+                                <td>67.25±6.58</td>
+                                <td>84.08±13.83</td>
+                                <td>0.28±0.13</td>
+                                <td>0.20±0.07</td>
+                                <td>0.13±0.09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/tables.js"></script>
+</body>
+</html>

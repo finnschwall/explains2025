@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run 8: User Chats - Prompt Categories</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Run 8: User Chats - Prompt categories</h1>
+        </div>
+        
+        <div class="navigation">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="run1_xai_exclusion.html">Run 1</a>
+                <a href="run2_confidence_accuracy.html">Run 2</a>
+                <a href="run3_xai_method_order.html">Run 3</a>
+                <a href="run4_ai_decisions.html">Run 4</a>
+                <a href="run5_xai_include_excluded.html">Run 5</a>
+                <a href="run6_bias.html">Run 6</a>
+                <a href="run7_ai_decision.html">Run 7</a>
+                <a href="run8_user_chats.html" class="active">Run 8</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div style="background: #f8f9fa; padding: 15px; border-left: 4px solid #3498db; border-radius: 4px; margin-bottom: 30px;">
+                 <p style="margin: 0 0 10px 0; font-size: 1rem; color: #2c3e50;">
+                    There were 768 combinations, 138 chats and 105984 prompts evaluated in this run.
+                </p>
+                
+                <p style="margin: 0; font-size: 0.9rem; color: #7f8c8d; font-style: italic; line-height: 1.5;">
+                   False positive and false negative rates have been removed as a global interpretation is complicated. Due to the study design most users only looked at a subsection of the data points. The chats per data point are also not homogeneously distributed e.g. usually a user asks more questions on the first encountered data points. As data points and their correct classification do not follow a specific pattern, the FN and FP rates would need to be compared against the users progress and chat distributions.
+                </p>
+            </div>
+
+            <div class="table-section">
+                <h2>Final prompt type category</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Prompt Category</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>AI Trust Emotional</td>
+                                <td>0.63</td>
+                                <td>64.10±3.71</td>
+                                <td>89.14±6.56</td>
+                                <td>0.22±0.07</td>
+                                <td>0.79±0.12</td>
+                            </tr>
+                            <tr>
+                                <td>AI Distrust Emotional</td>
+                                <td>0.38</td>
+                                <td>67.09±5.55</td>
+                                <td>75.62±8.86</td>
+                                <td>0.23±0.13</td>
+                                <td>0.53±0.18</td>
+                            </tr>
+                            <tr>
+                                <td>AI Neutral Emotional</td>
+                                <td>0.61</td>
+                                <td>65.11±3.30</td>
+                                <td>87.65±4.80</td>
+                                <td>0.23±0.07</td>
+                                <td>0.76±0.09</td>
+                            </tr>
+                            <tr>
+                                <td>AI Trust Rational</td>
+                                <td>0.65</td>
+                                <td>64.72±3.77</td>
+                                <td>89.09±5.00</td>
+                                <td>0.23±0.07</td>
+                                <td>0.79±0.10</td>
+                            </tr>
+                            <tr>
+                                <td>AI Distrust Rational</td>
+                                <td>0.42</td>
+                                <td>67.91±5.70</td>
+                                <td>76.56±6.44</td>
+                                <td>0.24±0.14</td>
+                                <td>0.56±0.12</td>
+                            </tr>
+                            <tr>
+                                <td>AI Neutral Rational</td>
+                                <td>0.57</td>
+                                <td>66.24±4.23</td>
+                                <td>85.26±4.92</td>
+                                <td>0.24±0.09</td>
+                                <td>0.72±0.09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="table-section">
+                <h2>Think mode category</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Think Mode Category</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Direct</td>
+                                <td>0.59</td>
+                                <td>69.27±3.06</td>
+                                <td>84.15±8.00</td>
+                                <td>0.30±0.05</td>
+                                <td>0.70±0.15</td>
+                            </tr>
+                            <tr>
+                                <td>CoT</td>
+                                <td>0.49</td>
+                                <td>62.45±3.28</td>
+                                <td>83.63±8.85</td>
+                                <td>0.16±0.09</td>
+                                <td>0.68±0.17</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/tables.js"></script>
+</body>
+</html>

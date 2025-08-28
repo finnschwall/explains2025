@@ -1,0 +1,14 @@
+{
+  "name": "second_real_run",
+  "description": "Prompt Variations",
+  "variations": {
+    "final_prompt_type": {
+      "type": "NamedCategories",
+      "name": "final_prompt_type"
+    }
+  },
+  "max_datapoints": 30,
+  "verbose": false,
+  "output_dir": "experiments",
+  "no_llm": false
+}

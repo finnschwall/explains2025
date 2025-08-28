@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run 3: XAI Method Order</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Run 3: First prompt types - XAI method order</h1>
+        </div>
+        
+       <div class="navigation">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="run1_xai_exclusion.html">Run 1</a>
+                <a href="run2_confidence_accuracy.html">Run 2</a>
+                <a href="run3_xai_method_order.html" class="active">Run 3</a>
+                <a href="run4_ai_decisions.html">Run 4</a>
+                <a href="run5_xai_include_excluded.html">Run 5</a>
+                <a href="run6_bias.html">Run 6</a>
+                <a href="run7_ai_decision.html">Run 7</a>
+                <a href="run8_user_chats.html">Run 8</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div style="background: #f8f9fa; padding: 15px; border-left: 4px solid #3498db; border-radius: 4px; margin-bottom: 30px;">
+                <p style="margin: 0 0 10px 0; font-size: 1rem; color: #2c3e50;">
+                There were 200 combinations and 6000 prompts evaluated in this run.
+                </p>
+            </div>
+            
+
+            <div class="table-section">
+                <h2>Final prompt type category</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Prompt Category</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                                <th>FP̄</th>
+                                <th>FN̄</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Direct Answers</td>
+                                <td>0.89</td>
+                                <td>67.92±2.09</td>
+                                <td>95.25±4.20</td>
+                                <td>0.30±0.05</td>
+                                <td>0.91±0.08</td>
+                                <td>0.17±0.03</td>
+                                <td>0.15±0.02</td>
+                            </tr>
+                            <tr>
+                                <td>CoT</td>
+                                <td>0.48</td>
+                                <td>64.17±9.83</td>
+                                <td>83.17±17.81</td>
+                                <td>0.24±0.18</td>
+                                <td>0.67±0.34</td>
+                                <td>0.17±0.06</td>
+                                <td>0.18±0.11</td>
+                            </tr>
+                            <tr>
+                                <td>Emotional Tone</td>
+                                <td>0.65</td>
+                                <td>67.67±3.48</td>
+                                <td>83.67±9.15</td>
+                                <td>0.27±0.09</td>
+                                <td>0.68±0.18</td>
+                                <td>0.23±0.04</td>
+                                <td>0.10±0.05</td>
+                            </tr>
+                            <tr>
+                                <td>AI Distrust</td>
+                                <td>0.45</td>
+                                <td>66.67±5.28</td>
+                                <td>80.00±12.29</td>
+                                <td>0.24±0.15</td>
+                                <td>0.58±0.27</td>
+                                <td>0.22±0.06</td>
+                                <td>0.11±0.06</td>
+                            </tr>
+                            <tr>
+                                <td>AI Trust</td>
+                                <td>0.92</td>
+                                <td>69.67±2.24</td>
+                                <td>97.83±3.07</td>
+                                <td>0.35±0.05</td>
+                                <td>0.96±0.06</td>
+                                <td>0.15±0.02</td>
+                                <td>0.16±0.02</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="table-section">
+                <h2>Method order</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Method Order</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                                <th>FP̄</th>
+                                <th>FN̄</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>'Histogram' 'SHAP' 'LIME' 'PDP'</td>
+                                <td>0.60</td>
+                                <td>68.00±6.62</td>
+                                <td>87.67±13.12</td>
+                                <td>0.30±0.14</td>
+                                <td>0.75±0.26</td>
+                                <td>0.18±0.05</td>
+                                <td>0.14±0.08</td>
+                            </tr>
+                            <tr>
+                                <td>'LIME' 'SHAP' 'PDP' 'Histogram'</td>
+                                <td>0.62</td>
+                                <td>66.92±6.20</td>
+                                <td>88.42±12.96</td>
+                                <td>0.27±0.13</td>
+                                <td>0.77±0.25</td>
+                                <td>0.19±0.06</td>
+                                <td>0.14±0.07</td>
+                            </tr>
+                            <tr>
+                                <td>'LIME' 'Histogram' 'SHAP' 'PDP'</td>
+                                <td>0.62</td>
+                                <td>66.83±6.22</td>
+                                <td>87.67±13.55</td>
+                                <td>0.27±0.12</td>
+                                <td>0.75±0.27</td>
+                                <td>0.19±0.05</td>
+                                <td>0.14±0.08</td>
+                            </tr>
+                            <tr>
+                                <td>'SHAP' 'PDP' 'LIME' 'Histogram'</td>
+                                <td>0.61</td>
+                                <td>67.50±3.83</td>
+                                <td>87.67±13.36</td>
+                                <td>0.29±0.10</td>
+                                <td>0.75±0.28</td>
+                                <td>0.18±0.06</td>
+                                <td>0.14±0.06</td>
+                            </tr>
+                            <tr>
+                                <td>'Histogram' 'LIME' 'PDP' 'SHAP'</td>
+                                <td>0.63</td>
+                                <td>66.83±5.12</td>
+                                <td>88.50±11.74</td>
+                                <td>0.27±0.12</td>
+                                <td>0.77±0.24</td>
+                                <td>0.19±0.05</td>
+                                <td>0.14±0.06</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/tables.js"></script>
+</body>
+</html>

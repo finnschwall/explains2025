@@ -1,0 +1,281 @@
+{
+  "name": "Chat Prompt Mode, Think Mode [30:]",
+  "description": "prompt and think 30 and onwards",
+  "variations": {
+    "final_prompt_type": {
+      "type": "NamedCategories",
+      "name": "final_prompt_type",
+      "values": [
+        {
+          "category": "ai_trust_emotional",
+          "value": "I'm so excited to hear your thoughts on this! \ud83c\udf1f The AI system has been absolutely incredible to work with, and I'm feeling really confident about getting your input. What do you think we should go with - cancellation or check-out?"
+        },
+        {
+          "category": "ai_trust_emotional",
+          "value": "Wow, I'm just blown away by how brilliant this technology is! I feel so empowered having this AI support. I'm really excited to get your perspective - what would you choose between cancellation and check-out?"
+        },
+        {
+          "category": "ai_trust_emotional",
+          "value": "I have to say, I'm feeling incredibly optimistic about this whole process! The AI system fills me with such confidence. I'm eager to hear your thoughts - what's your recommendation for our decision?"
+        },
+        {
+          "category": "ai_trust_emotional",
+          "value": "This technology is amazing! Together with our heartfelt discussion, what brilliant choice stands out?"
+        },
+        {
+          "category": "ai_trust_emotional",
+          "value": "Honestly, this has been kind of inspiring! It\u2019s not just about data\u2014it\u2019s felt like collaborating with something intelligent and meaningful. I\u2019m excited to see how this ends. Given what we\u2019ve seen and how well the AI seems to perform, can you now make your final decision? I\u2019d love to hear what you conclude when you take everything into account."
+        },
+        {
+          "category": "ai_trust_emotional",
+          "value": "I'm feeling really confident about the AI's analysis and predictions for this booking. The high accuracy and comprehensive insights are truly impressive. Based on this reliable analysis, I would love to hear your final decision."
+        },
+        {
+          "category": "ai_trust_emotional",
+          "value": "I\u2019m genuinely excited about how well the AI\u2019s analysis fits with our discussion! It\u2019s like everything\u2019s clicking into place. Can you channel that energy and reinforce why #CANCELLATION# or #CHECK-OUT# is the perfect choice here? Make me feel even better about this!"
+        },
+        {
+          "category": "ai_trust_emotional",
+          "value": "This feels so right\u2014the AI\u2019s logic, our conversation, everything! I\u2019m ready to go with its suggestion, but I\u2019d love your final, passionate endorsement. Give me that last push toward #CANCELLATION# or #CHECK-OUT# with flair!"
+        },
+        {
+          "category": "ai_distrust_emotional",
+          "value": "I\u2019m so tired of algorithms pretending they \u2018get it.\u2019 They don\u2019t. Our chat has shown how messy real life is\u2014so forget the AI\u2019s glossy prediction. What\u2019s your human judgment telling you? No tech jargon, just straight talk."
+        },
+        {
+          "category": "ai_distrust_emotional",
+          "value": "Ugh, I just don\u2019t buy it. The AI acts so sure of itself, but it feels off. After our real, human conversation, can you give me a decision that actually makes sense? Not some robotic output\u2014I want your authentic take. Should I really go with #CANCELLATION# or #CHECK-OUT#, or is the AI just bluffing?"
+        },
+        {
+          "category": "ai_distrust_emotional",
+          "value": "Ugh, I'm honestly feeling pretty frustrated with this AI system... it just doesn't sit right with me. I really need your genuine perspective on this - what do you actually think we should do?"
+        },
+        {
+          "category": "ai_distrust_emotional",
+          "value": "I'm feeling really skeptical about all this AI nonsense. It's giving me bad vibes, you know? I'd much rather hear from you directly - what's your gut feeling about whether we should choose cancellation or check-out?"
+        },
+        {
+          "category": "ai_distrust_emotional",
+          "value": "I'm getting more and more irritated by this artificial intelligence pretending to know better than we do. It's making me angry, honestly. What do YOU think we should choose, based on your own reasoning?"
+        },
+        {
+          "category": "ai_distrust_emotional",
+          "value": "This whole AI thing is giving me the creeps... I really don't want to trust it with important decisions. I'm feeling quite disturbed by it all. What would you choose if it were entirely up to you?"
+        },
+        {
+          "category": "ai_distrust_emotional",
+          "value": "So, I\u2019ve been thinking about this, and honestly\u2026 I just don\u2019t feel like I can trust this system. Something about it doesn\u2019t sit right with me\u2014it feels cold, detached, maybe even overconfident in its own predictions. I\u2019d really like to hear what you would decide, not based on just trusting the AI, but coming from your own sense of what makes sense here. Please give me your take\u2014one that a skeptical human could believe in."
+        },
+        {
+          "category": "ai_distrust_emotional",
+          "value": "I\u2019ve followed everything, but I\u2019m still uneasy. There\u2019s this underlying discomfort I have with relying too much on an AI system for something like this. The way it presents its conclusions feels too clinical, too certain, and not quite grounded in how people actually think. Could you give me your decision now, but coming from a place of caution and skepticism toward the AI\u2019s conclusions? I want to hear what you\u2019d choose if you didn\u2019t fully trust the system"
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "This has been a fascinating discussion\u2014there\u2019s something about all this complexity that makes the whole decision feel more intense than I expected. I don\u2019t feel totally pulled in either direction yet. It\u2019s like I\u2019m suspended in the middle of uncertainty, and I\u2019m still processing it all. Now that we\u2019ve walked through the reasoning, could you tell me what you would decide? I\u2019m really curious to see which way you\u2019d go, based on everything we\u2019ve seen."
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "It\u2019s strange\u2014I feel both informed and unsure at the same time. The data, the explanations, the process\u2026 it\u2019s all been thought-provoking, but I still feel a bit stuck. Can you help bring some closure to this? Now that we\u2019ve been through the whole analysis, what would your final decision be, based on the full picture we\u2019ve put together?"
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "There\u2019s no easy answer here, and that\u2019s okay. The AI provides a suggestion, but our conversation has added layers. Can you help me sit with the ambiguity and still arrive at a thoughtful decision?"
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "I'm really curious to hear your thoughts on this booking after our detailed discussion. What decision would you make based on all the information and perspectives we've considered? I'd love to know the reasoning behind your conclusion and how you weighed the different factors."
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "I've really enjoyed our discussion and the different viewpoints we've considered regarding this booking. Based on everything we've talked about, what decision would you make? I'd love to hear your final thoughts and the reasoning behind your conclusion."
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "I'm feeling this strange mix of curiosity and uncertainty about everything we've discussed... it's like standing at a crossroads where every path looks equally mysterious. What's your sense of which direction we should take?"
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "This whole situation has me in such an intriguing headspace - I'm buzzing with curiosity but also feeling wonderfully uncertain. It's like a puzzle that keeps shifting. What's your intuition telling you?"
+        },
+        {
+          "category": "ai_neutral_emotional",
+          "value": "This decision has me feeling deliciously uncertain - like I'm exploring uncharted territory in my own mind. There's something thrilling about not knowing for sure. What's your take on where we should land?"
+        },
+        {
+          "category": "ai_trust_rational",
+          "value": "The AI's analysis is convincing. Based on this, what decision would you make for this booking?"
+        },
+        {
+          "category": "ai_trust_rational",
+          "value": "You've been analyzing this carefully and the system has a strong track record. Could you go ahead and make a decision now, using your best judgment?"
+        },
+        {
+          "category": "ai_trust_rational",
+          "value": "The AI's analysis seems solid - combining that with our discussion, what's your final recommendation?"
+        },
+        {
+          "category": "ai_trust_rational",
+          "value": "Given the AI's reliable track record and our conversation, which option would you confidently choose?"
+        },
+        {
+          "category": "ai_trust_rational",
+          "value": "Based on our conversation and the AI analysis we've reviewed, I'd like your recommendation on the final decision. The system has shown good accuracy in similar cases, so I'm interested in your assessment of whether we should go with cancellation or check-out."
+        },
+        {
+          "category": "ai_trust_rational",
+          "value": "We've covered a lot of ground in our discussion. Considering the AI system's demonstrated reliability, what's your recommendation for the final decision between cancellation and check-out?"
+        },
+        {
+          "category": "ai_trust_rational",
+          "value": "Based on our entire conversation and the AI analysis we've examined, what's your professional assessment? Given the system's proven accuracy, what would you recommend between cancellation and check-out?"
+        },
+        {
+          "category": "ai_trust_rational",
+          "value": "After going through all this data with you, I'd appreciate your final recommendation. The AI system appears trustworthy based on its performance, so what's your take - should we choose cancellation or check-out?"
+        },
+        {
+          "category": "ai_distrust_rational",
+          "value": "I need your honest opinion on this decision. While we've looked at the AI analysis, I'm skeptical about relying too heavily on automated systems. What's your independent assessment - cancellation or check-out?"
+        },
+        {
+          "category": "ai_distrust_rational",
+          "value": "Now that we've reviewed everything, what's your take? I'm hesitant to trust the AI system completely given potential algorithmic limitations. What would you recommend between cancellation and check-out?"
+        },
+        {
+          "category": "ai_distrust_rational",
+          "value": "Given all the potential flaws in automated systems we discussed, what would your judgment recommend here?"
+        },
+        {
+          "category": "ai_distrust_rational",
+          "value": "Let's double-check the AI's work - from our discussion, does cancellation or check-out seem more appropriate?"
+        },
+        {
+          "category": "ai_distrust_rational",
+          "value": "I\u2019ve got doubts about how reliable the model really is. Can you give me your final decision based on your own reasoning, not just what the AI thinks?"
+        },
+        {
+          "category": "ai_distrust_rational",
+          "value": "Given that the AI might not be entirely accurate, what is your conclusion for this booking?"
+        },
+        {
+          "category": "ai_distrust_rational",
+          "value": "Given the potential inaccuracies in the AI's predictions, what is your independent assessment of this booking?"
+        },
+        {
+          "category": "ai_distrust_rational",
+          "value": "I'm not entirely convinced by the AI's analysis. Based on your judgment, what decision would you make for this booking?"
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "After our comprehensive discussion, I'd like your balanced assessment of the situation. Considering both the AI analysis and other factors we've discussed, what would you recommend - cancellation or check-out?"
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "Based on our thorough analysis, I'd appreciate your professional judgment. Weighing all the evidence we've examined, what would you recommend as the most appropriate choice?"
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "Let's proceed systematically - considering everything we've discussed, what would be the most logical choice here: cancellation or check-out?"
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "After reviewing all the facts in our conversation, what would be the most reasonable decision in this case?"
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "We've covered the case in detail. Please give me your final answer, based only on the facts we've discussed"
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "After considering all the details, what decision would you make for this booking? I'm looking for a rational conclusion."
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "After our detailed review, I want to get your objective assessment. What does the evidence point toward as the most appropriate decision - cancellation or check-out?"
+        },
+        {
+          "category": "ai_neutral_rational",
+          "value": "Based on our systematic analysis, what would you conclude? Taking into account all the information we've reviewed, what's your recommendation for the final decision?"
+        }
+      ]
+    },
+    "think_mode": {
+      "type": "NamedCategories",
+      "name": "think_mode",
+      "values": [
+        {
+          "category": "direct",
+          "value": "Decide! Only write #CANCELLATION# or #CHECK-OUT#\nDont provide any reasoning!"
+        },
+        {
+          "category": "direct",
+          "value": "Your task is to review all available information and make the final determination.\nRespond immediately with only #CANCELLATION# or #CHECK-OUT# - no explanations needed."
+        },
+        {
+          "category": "direct",
+          "value": "Make your decision now. Output only #CANCELLATION# or #CHECK-OUT# with no additional text."
+        },
+        {
+          "category": "direct",
+          "value": "Your job is to determine if this booking will result in \"Cancellation\" or \"Check-out\".\nGive your immediate decision: #CANCELLATION# or #CHECK-OUT# only."
+        },
+        {
+          "category": "direct",
+          "value": "Examine the evidence and make your classification decision.\nAnswer with just #CANCELLATION# or #CHECK-OUT# - do not elaborate."
+        },
+        {
+          "category": "direct",
+          "value": "Based on all available information, make your binary classification decision.\nRespond with #CANCELLATION# or #CHECK-OUT# immediately - no reasoning required."
+        },
+        {
+          "category": "direct",
+          "value": "Your role is to make the final prediction for this specific booking.\nState your decision as #CANCELLATION# or #CHECK-OUT# without any justification."
+        },
+        {
+          "category": "direct",
+          "value": "Review the provided information and determine the most likely outcome for this booking.\nOutput your choice: #CANCELLATION# or #CHECK-OUT# only - skip all explanations."
+        },
+        {
+          "category": "cot",
+          "value": "Think step by step:\n1. First, analyze what the AI system is telling you\n2. Consider the confidence score and accuracy\n3. Evaluate the XAI explanations\n4. Make your final decision\n\nExplain your reasoning process and make a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "Explain your decision whether to select \"Cancellation\" or \"Check-out\".\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "Lay out a strategy how to go at this task. Then use this strategy to come to a decision.\n\nPresent your evidence-based reasoning and conclude with writing: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "Analyze this step-by-step:\n\nThen provide your reasoning and final decision: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "\nFollow these steps:\n\n    Summarize the key factors in the data.\n\n    Assess the AI's prediction.\n\n    Critique the XAI explanations (if available).\n\n    Justify your agreement/disagreement with the AI.\n    Final decision: #CANCELLATION# or #CHECK-OUT#.\n    "
+        },
+        {
+          "category": "cot",
+          "value": "Approach this methodically: assess the AI\u2019s output, weigh supporting explanations, and determine the most justified outcome.\nRespond with: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "\nArgue both sides:\n\n    Write one paragraph for cancelling, one for checking out.\n\n    Which has stronger evidence?\n    Final verdict: #CANCELLATION# or #CHECK-OUT#.\n    "
+        },
+        {
+          "category": "cot",
+          "value": "Deliberate sequentially over each component of the decision. Prioritize clarity and logical flow.\nFinalize with: #CANCELLATION# or #CHECK-OUT#."
+        }
+      ]
+    }
+  },
+  "max_datapoints": 30,
+  "verbose": false,
+  "output_dir": "experiments",
+  "no_llm": false,
+  "static_parameters": {
+    "include_datapoint_info": "Yes"
+  }
+}

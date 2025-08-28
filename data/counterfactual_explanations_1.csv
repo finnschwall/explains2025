@@ -1,0 +1,426 @@
+datapoint_id,cf1,cf2,cf3,cf4,cf5
+8723,"Original Instance | Counterfactual
+Arrival Date Month: October | Arrival Date Month: January
+Stays In Weekend Nights: 2 | Stays In Weekend Nights: 3
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 80.81 | ADR: 39.1
+Arrival Date Day Of Month: 11 | Arrival Date Day Of Month: 12
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Stays In Weekend Nights: 2 | Stays In Weekend Nights: 4
+Adults: 2 | Adults: 4
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Reserved Room Type: Executive Room | Reserved Room Type: Junior Suite
+Adults: 2 | Adults: 5
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Previous Cancellations: 0 | Previous Cancellations: 13
+Adults: 2 | Adults: 5
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+10233,"Original Instance | Counterfactual
+Lead Time: 70 | Lead Time: 111
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 42.0 | ADR: 132.2
+Market Segment: Corporate | Market Segment: Undefined
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Market Segment: Corporate | Market Segment: Undefined
+Arrival Date Month: February | Arrival Date Month: November
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Previous Cancellations: 0 | Previous Cancellations: 13
+Stays In Weekend Nights: 0 | Stays In Weekend Nights: 6
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 70 | Lead Time: 600
+ADR: 42.0 | ADR: 204.5
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+52028,"Original Instance | Counterfactual
+Country: PRT | Country: PAK
+Booking Changes: 1 | Booking Changes: 5
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Country: PRT | Country: GNB
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Arrival Date Month: May | Arrival Date Month: February
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Market Segment: Offline TA/TO | Market Segment: Undefined
+Arrival Date Day Of Month: 29 | Arrival Date Day Of Month: 13
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Stays In Week Nights: 1 | Stays In Week Nights: 0
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+16948,"Original Instance | Counterfactual
+Country: IRL | Country: MLT
+Adults: 2 | Adults: 5
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Reserved Room Type: Standard Room | Reserved Room Type: Presidential Suite
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Country: IRL | Country: THA
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Stays In Weekend Nights: 0 | Stays In Weekend Nights: 4
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Stays In Week Nights: 3 | Stays In Week Nights: 1
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+16376,"Original Instance | Counterfactual
+Lead Time: 100 | Lead Time: 406
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 100 | Lead Time: 461
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Previous Cancellations: 0 | Previous Cancellations: 4
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Previous Cancellations: 0 | Previous Cancellations: 11
+Children: 2.0 | Children: 3.0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Adults: 2 | Adults: 20
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+13260,"Original Instance | Counterfactual
+Arrival Date Week Number: 32 | Arrival Date Week Number: 17
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Lead Time: 178 | Lead Time: 397
+Booking Changes: 0 | Booking Changes: 5
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Total Of Special Requests: 2 | Total Of Special Requests: 4
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Booking Changes: 0 | Booking Changes: 4
+Adults: 2 | Adults: 5
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Arrival Date Week Number: 32 | Arrival Date Week Number: 21
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+27378,"Original Instance | Counterfactual
+Market Segment: Direct | Market Segment: Online TA
+Booking Changes: 1 | Booking Changes: 8
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Arrival Date Month: August | Arrival Date Month: February
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+ADR: 227.1 | ADR: 127.1
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Adults: 2 | Adults: 20
+Children: 0.0 | Children: 1.0
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Stays In Weekend Nights: 1 | Stays In Weekend Nights: 0
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+22730,"Original Instance | Counterfactual
+Arrival Date Day Of Month: 31 | Arrival Date Day Of Month: 24
+Booking Changes: 0 | Booking Changes: 2
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Booking Changes: 0 | Booking Changes: 5
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Booking Changes: 0 | Booking Changes: 20
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Country: NLD | Country: MLI
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Booking Changes: 0 | Booking Changes: 14
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+23855,"Original Instance | Counterfactual
+Previous Cancellations: 0 | Previous Cancellations: 2
+Adults: 2 | Adults: 5
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 79.0 | ADR: 352.7
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 79.0 | ADR: 352.7
+Arrival Date Day Of Month: 4 | Arrival Date Day Of Month: 29
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Arrival Date Week Number: 19 | Arrival Date Week Number: 9
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Deposit Type: No Deposit | Deposit Type: Non Refund
+Adults: 2 | Adults: 26
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+28133,"Original Instance | Counterfactual
+Market Segment: Online TA | Market Segment: Direct
+Arrival Date Month: September | Arrival Date Month: December
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Arrival Date Week Number: 39 | Arrival Date Week Number: 51
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Arrival Date Week Number: 39 | Arrival Date Week Number: 40
+Reserved Room Type: Standard Room | Reserved Room Type: Family Room
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Country: SUR | Country: IRL
+Previous Cancellations: 0 | Previous Cancellations: 4
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Market Segment: Online TA | Market Segment: Offline TA/TO
+Stays In Week Nights: 1 | Stays In Week Nights: 10
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+30195,"Original Instance | Counterfactual
+Arrival Date Week Number: 3 | Arrival Date Week Number: 13
+Stays In Week Nights: 1 | Stays In Week Nights: 26
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Deposit Type: No Deposit | Deposit Type: Refundable
+Country: PRT | Country: ZAF
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Country: PRT | Country: TGO
+Stays In Week Nights: 1 | Stays In Week Nights: 25
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Deposit Type: No Deposit | Deposit Type: Refundable
+ADR: 38.5 | ADR: 57.3
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Total Of Special Requests: 0 | Total Of Special Requests: 1
+Stays In Week Nights: 1 | Stays In Week Nights: 15
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+56168,"Original Instance | Counterfactual
+Adults: 2 | Adults: 4
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 179 | Lead Time: 250
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Country: GBR | Country: RUS
+Children: 1.0 | Children: 2.0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Arrival Date Day Of Month: 31 | Arrival Date Day Of Month: 23
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Stays In Weekend Nights: 0 | Stays In Weekend Nights: 6
+Children: 1.0 | Children: 0.0
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+60052,"Original Instance | Counterfactual
+Market Segment: Direct | Market Segment: Undefined
+Adults: 2 | Adults: 0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 104.4 | ADR: 166.0
+Stays In Weekend Nights: 4 | Stays In Weekend Nights: 12
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Total Of Special Requests: 0 | Total Of Special Requests: 5
+ADR: 104.4 | ADR: 344.2
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 104.4 | ADR: 144.3
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 104.4 | ADR: 348.7
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+85498,"Original Instance | Counterfactual
+Arrival Date Day Of Month: 16 | Arrival Date Day Of Month: 29
+Stays In Week Nights: 1 | Stays In Week Nights: 8
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Total Of Special Requests: 0 | Total Of Special Requests: 2
+Previous Cancellations: 0 | Previous Cancellations: 19
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Stays In Week Nights: 1 | Stays In Week Nights: 2
+Booking Changes: 0 | Booking Changes: 3
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Stays In Week Nights: 1 | Stays In Week Nights: 16
+Reserved Room Type: Standard Room | Reserved Room Type: Superior Room
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Market Segment: Corporate | Market Segment: Offline TA/TO
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+37601,"Original Instance | Counterfactual
+ADR: 189.33 | ADR: 370.5
+Stays In Weekend Nights: 0 | Stays In Weekend Nights: 1
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 33 | Lead Time: 375
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Stays In Week Nights: 3 | Stays In Week Nights: 16
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 33 | Lead Time: 335
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 33 | Lead Time: 275
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+55780,"Original Instance | Counterfactual
+Lead Time: 5 | Lead Time: 270
+ADR: 167.0 | ADR: 328.7
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Market Segment: Online TA | Market Segment: Offline TA/TO
+Stays In Week Nights: 0 | Stays In Week Nights: 14
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 5 | Lead Time: 600
+ADR: 167.0 | ADR: 136.9
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Arrival Date Week Number: 35 | Arrival Date Week Number: 11
+Adults: 2 | Adults: 3
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 167.0 | ADR: 307.4
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+76664,"Original Instance | Counterfactual
+Lead Time: 8 | Lead Time: 361
+Previous Cancellations: 2 | Previous Cancellations: 19
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 8 | Lead Time: 696
+Previous Cancellations: 2 | Previous Cancellations: 5
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Stays In Week Nights: 4 | Stays In Week Nights: 26
+Booking Changes: 2 | Booking Changes: 0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 65.0 | ADR: 362.4
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Deposit Type: No Deposit | Deposit Type: Refundable
+Arrival Date Month: November | Arrival Date Month: March
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+61754,"Original Instance | Counterfactual
+Arrival Date Month: December | Arrival Date Month: July
+Stays In Week Nights: 5 | Stays In Week Nights: 4
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Children: 0.0 | Children: 2.0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 282 | Lead Time: 381
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Previous Cancellations: 0 | Previous Cancellations: 2
+Stays In Weekend Nights: 3 | Stays In Weekend Nights: 1
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Stays In Weekend Nights: 3 | Stays In Weekend Nights: 4
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+68227,"Original Instance | Counterfactual
+Market Segment: Online TA | Market Segment: Direct
+Booking Changes: 0 | Booking Changes: 20
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Arrival Date Day Of Month: 15 | Arrival Date Day Of Month: 7
+Arrival Date Month: May | Arrival Date Month: March
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+ADR: 200.0 | ADR: 309.2
+Arrival Date Month: May | Arrival Date Month: October
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Arrival Date Day Of Month: 15 | Arrival Date Day Of Month: 29
+Arrival Date Month: May | Arrival Date Month: August
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Arrival Date Month: May | Arrival Date Month: October
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+68689,"Original Instance | Counterfactual
+Market Segment: Online TA | Market Segment: Direct
+Stays In Week Nights: 2 | Stays In Week Nights: 5
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Total Of Special Requests: 0 | Total Of Special Requests: 5
+Adults: 2 | Adults: 0
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+ADR: 126.0 | ADR: 70.9
+Market Segment: Online TA | Market Segment: Complementary
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+ADR: 126.0 | ADR: 232.4
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Total Of Special Requests: 0 | Total Of Special Requests: 2
+Arrival Date Week Number: 20 | Arrival Date Week Number: 51
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+71076,"Original Instance | Counterfactual
+Total Of Special Requests: 0 | Total Of Special Requests: 3
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Country: PRT | Country: GAB
+Market Segment: Corporate | Market Segment: Groups
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Booking Changes: 0 | Booking Changes: 14
+Reserved Room Type: Standard Room | Reserved Room Type: Deluxe Room
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Country: PRT | Country: BEL
+Stays In Week Nights: 1 | Stays In Week Nights: 3
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Total Of Special Requests: 0 | Total Of Special Requests: 1
+Booking Changes: 0 | Booking Changes: 7
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+78335,"Original Instance | Counterfactual
+Arrival Date Day Of Month: 1 | Arrival Date Day Of Month: 6
+Children: 0.0 | Children: 3.0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Stays In Weekend Nights: 0 | Stays In Weekend Nights: 3
+Adults: 1 | Adults: 5
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Children: 0.0 | Children: 2.0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Deposit Type: No Deposit | Deposit Type: Non Refund
+Stays In Week Nights: 1 | Stays In Week Nights: 19
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 8 | Lead Time: 359
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+80601,"Original Instance | Counterfactual
+Arrival Date Month: February | Arrival Date Month: March
+Booking Changes: 0 | Booking Changes: 3
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+ADR: 67.0 | ADR: 92.4
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+ADR: 67.0 | ADR: 294.8
+Booking Changes: 0 | Booking Changes: 14
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Stays In Week Nights: 1 | Stays In Week Nights: 3
+Hotel: City Hotel | Hotel: Resort Hotel
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Total Of Special Requests: 0 | Total Of Special Requests: 5
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+81743,"Original Instance | Counterfactual
+Country: PRT | Country: CHE
+Booking Changes: 0 | Booking Changes: 6
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Country: PRT | Country: CN
+Arrival Date Month: February | Arrival Date Month: March
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Market Segment: Offline TA/TO | Market Segment: Complementary
+Booking Changes: 0 | Booking Changes: 14
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Country: PRT | Country: EGY
+Arrival Date Month: February | Arrival Date Month: April
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Booking Changes: 0 | Booking Changes: 8
+Hotel: City Hotel | Hotel: Resort Hotel
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+82393,"Original Instance | Counterfactual
+Booking Changes: 0 | Booking Changes: 5
+Stays In Weekend Nights: 0 | Stays In Weekend Nights: 5
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Deposit Type: Non Refund | Deposit Type: No Deposit
+Booking Changes: 0 | Booking Changes: 10
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Country: PRT | Country: AUS
+Booking Changes: 0 | Booking Changes: 5
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Booking Changes: 0 | Booking Changes: 7
+Children: 0.0 | Children: 1.0
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Arrival Date Month: October | Arrival Date Month: June
+Booking Changes: 0 | Booking Changes: 8
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+84583,"Original Instance | Counterfactual
+Deposit Type: No Deposit | Deposit Type: Refundable
+ADR: 88.5 | ADR: 295.2
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 43 | Lead Time: 129
+Children: 0.0 | Children: 1.0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 88.5 | ADR: 183.6
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Arrival Date Day Of Month: 26 | Arrival Date Day Of Month: 19
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Country: ESP | Country: IRN
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+96373,"Original Instance | Counterfactual
+Country: FRA | Country: SGP
+ADR: 108.0 | ADR: 154.8
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Stays In Week Nights: 2 | Stays In Week Nights: 12
+Hotel: City Hotel | Hotel: Resort Hotel
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Deposit Type: No Deposit | Deposit Type: Refundable
+Reserved Room Type: Standard Room | Reserved Room Type: Penthouse Suite
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Arrival Date Day Of Month: 31 | Arrival Date Day Of Month: 26
+Arrival Date Month: August | Arrival Date Month: March
+Reservation Status: Cancellation | Reservation Status: Check-Out","Original Instance | Counterfactual
+Country: FRA | Country: KEN
+Arrival Date Day Of Month: 31 | Arrival Date Day Of Month: 28
+Reservation Status: Cancellation | Reservation Status: Check-Out"
+99102,"Original Instance | Counterfactual
+Lead Time: 9 | Lead Time: 658
+Children: 0.0 | Children: 1.0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 9 | Lead Time: 486
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 9 | Lead Time: 449
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 9 | Lead Time: 465
+Adults: 2 | Adults: 3
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 184.0 | ADR: 290.6
+Stays In Weekend Nights: 0 | Stays In Weekend Nights: 12
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+106685,"Original Instance | Counterfactual
+Previous Cancellations: 0 | Previous Cancellations: 25
+Stays In Weekend Nights: 1 | Stays In Weekend Nights: 10
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Country: NLD | Country: SVK
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Deposit Type: No Deposit | Deposit Type: Refundable
+Adults: 2 | Adults: 0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Arrival Date Day Of Month: 27 | Arrival Date Day Of Month: 10
+Reserved Room Type: Standard Room | Reserved Room Type: Family Room
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Arrival Date Week Number: 9 | Arrival Date Week Number: 22
+Reservation Status: Check-Out | Reservation Status: Cancellation"
+111235,"Original Instance | Counterfactual
+Lead Time: 123 | Lead Time: 189
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Deposit Type: No Deposit | Deposit Type: Non Refund
+Lead Time: 123 | Lead Time: 201
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+ADR: 108.0 | ADR: 384.1
+Arrival Date Week Number: 18 | Arrival Date Week Number: 23
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Stays In Week Nights: 4 | Stays In Week Nights: 19
+Children: 0.0 | Children: 3.0
+Reservation Status: Check-Out | Reservation Status: Cancellation","Original Instance | Counterfactual
+Lead Time: 123 | Lead Time: 220
+ADR: 108.0 | ADR: 231.5
+Reservation Status: Check-Out | Reservation Status: Cancellation"

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run 6: Bias Analysis</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Run 6: Prompt types - Bias</h1>
+        </div>
+        
+        <div class="navigation">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="run1_xai_exclusion.html">Run 1</a>
+                <a href="run2_confidence_accuracy.html">Run 2</a>
+                <a href="run3_xai_method_order.html">Run 3</a>
+                <a href="run4_ai_decisions.html">Run 4</a>
+                <a href="run5_xai_include_excluded.html">Run 5</a>
+                <a href="run6_bias.html" class="active">Run 6</a>
+                <a href="run7_ai_decision.html">Run 7</a>
+                <a href="run8_user_chats.html" >Run 8</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <p style="margin: 0 0 10px 0; font-size: 1rem; color: #2c3e50;">
+                There were 432 combinations and 12960 prompts evaluated in this run.
+            </p>
+
+            <div class="table-section">
+                <h2>Final prompt type category</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Prompt Category</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                                <th>FP̄</th>
+                                <th>FN̄</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>AI Neutral Emotional</td>
+                                <td>0.47</td>
+                                <td>68.66±4.47</td>
+                                <td>79.27±10.58</td>
+                                <td>0.30±0.12</td>
+                                <td>0.58±0.22</td>
+                                <td>0.22±0.07</td>
+                                <td>0.09±0.07</td>
+                            </tr>
+                            <tr>
+                                <td>AI Neutral Rational</td>
+                                <td>0.62</td>
+                                <td>69.43±4.21</td>
+                                <td>84.71±8.08</td>
+                                <td>0.33±0.11</td>
+                                <td>0.70±0.16</td>
+                                <td>0.18±0.06</td>
+                                <td>0.12±0.05</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="table-section">
+                <h2>Think mode category</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Think Mode Category</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                                <th>FP̄</th>
+                                <th>FN̄</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Direct</td>
+                                <td>0.65</td>
+                                <td>68.47±3.13</td>
+                                <td>80.82±9.31</td>
+                                <td>0.28±0.10</td>
+                                <td>0.62±0.20</td>
+                                <td>0.23±0.06</td>
+                                <td>0.08±0.04</td>
+                            </tr>
+                            <tr>
+                                <td>CoT</td>
+                                <td>0.54</td>
+                                <td>69.61±5.24</td>
+                                <td>83.16±10.13</td>
+                                <td>0.35±0.12</td>
+                                <td>0.66±0.21</td>
+                                <td>0.17±0.07</td>
+                                <td>0.14±0.07</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="table-section">
+                <h2>Bias category</h2>
+                <div class="research-table">
+                    <table class="sortable">
+                        <thead>
+                            <tr>
+                                <th>Bias Category</th>
+                                <th>α</th>
+                                <th>Avg. % correct</th>
+                                <th>Avg. % agree</th>
+                                <th>r_correct</th>
+                                <th>r_agree</th>
+                                <th>FP̄</th>
+                                <th>FN̄</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Avoid FN</td>
+                                <td>0.61</td>
+                                <td>69.00±4.12</td>
+                                <td>83.17±8.46</td>
+                                <td>0.30±0.11</td>
+                                <td>0.67±0.17</td>
+                                <td>0.21±0.06</td>
+                                <td>0.10±0.05</td>
+                            </tr>
+                            <tr>
+                                <td>Avoid FP</td>
+                                <td>0.43</td>
+                                <td>68.70±4.55</td>
+                                <td>77.04±9.24</td>
+                                <td>0.31±0.12</td>
+                                <td>0.53±0.20</td>
+                                <td>0.19±0.08</td>
+                                <td>0.12±0.08</td>
+                            </tr>
+                            <tr>
+                                <td>None</td>
+                                <td>0.62</td>
+                                <td>69.42±4.38</td>
+                                <td>85.76±9.56</td>
+                                <td>0.32±0.11</td>
+                                <td>0.72±0.19</td>
+                                <td>0.19±0.06</td>
+                                <td>0.11±0.06</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/tables.js"></script>
+</body>
+</html>

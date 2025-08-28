@@ -1,0 +1,460 @@
+feature_name,cancellation_explanation,checkout_explanation
+deposit_type,"PDP for 'Cancellation' - Deposit Type:
+Range 0.00 to 2.00
+  Value: No Deposit, Avg Pred: 0.3343
+  Value: No Deposit, Avg Pred: 0.3343
+  Value: No Deposit, Avg Pred: 0.3343
+  Value: No Deposit, Avg Pred: 0.3343
+  Value: No Deposit, Avg Pred: 0.3343
+  Value: No Deposit, Avg Pred: 0.3343
+  Value: Non Refund, Avg Pred: 0.6192
+  Value: Non Refund, Avg Pred: 0.6192
+  Value: Non Refund, Avg Pred: 0.6192
+  Value: Non Refund, Avg Pred: 0.6192
+  Value: Non Refund, Avg Pred: 0.6192
+  Value: Refundable, Avg Pred: 0.7324","PDP for 'Check-Out' - Deposit Type:
+Range 0.00 to 2.00
+  Value: No Deposit, Avg Pred: 0.6657
+  Value: No Deposit, Avg Pred: 0.6657
+  Value: No Deposit, Avg Pred: 0.6657
+  Value: No Deposit, Avg Pred: 0.6657
+  Value: No Deposit, Avg Pred: 0.6657
+  Value: No Deposit, Avg Pred: 0.6657
+  Value: Non Refund, Avg Pred: 0.3808
+  Value: Non Refund, Avg Pred: 0.3808
+  Value: Non Refund, Avg Pred: 0.3808
+  Value: Non Refund, Avg Pred: 0.3808
+  Value: Non Refund, Avg Pred: 0.3808
+  Value: Refundable, Avg Pred: 0.2676"
+lead_time,"PDP for 'Cancellation' - Lead Time:
+Range 0.00 to 709.00
+  Value: 0, Avg Pred: 0.2045
+  Value: 61, Avg Pred: 0.3982
+  Value: 123, Avg Pred: 0.4355
+  Value: 184, Avg Pred: 0.4620
+  Value: 256, Avg Pred: 0.5152
+  Value: 318, Avg Pred: 0.5697
+  Value: 380, Avg Pred: 0.6137
+  Value: 441, Avg Pred: 0.6394
+  Value: 513, Avg Pred: 0.6587
+  Value: 575, Avg Pred: 0.6618
+  Value: 637, Avg Pred: 0.6597
+  Value: 709, Avg Pred: 0.6547","PDP for 'Check-Out' - Lead Time:
+Range 0.00 to 709.00
+  Value: 0, Avg Pred: 0.7955
+  Value: 61, Avg Pred: 0.6018
+  Value: 123, Avg Pred: 0.5645
+  Value: 184, Avg Pred: 0.5380
+  Value: 256, Avg Pred: 0.4848
+  Value: 318, Avg Pred: 0.4303
+  Value: 380, Avg Pred: 0.3863
+  Value: 441, Avg Pred: 0.3606
+  Value: 513, Avg Pred: 0.3413
+  Value: 575, Avg Pred: 0.3382
+  Value: 637, Avg Pred: 0.3403
+  Value: 709, Avg Pred: 0.3453"
+country,"PDP for 'Cancellation' - Country:
+Range 1.00 to 175.00
+  Value: AGO, Avg Pred: 0.2325
+  Value: BEN, Avg Pred: 0.2296
+  Value: CHN, Avg Pred: 0.2330
+  Value: DNK, Avg Pred: 0.2412
+  Value: GLP, Avg Pred: 0.2628
+  Value: ISL, Avg Pred: 0.2920
+  Value: LBN, Avg Pred: 0.3126
+  Value: MLI, Avg Pred: 0.3298
+  Value: OMN, Avg Pred: 0.4125
+  Value: SAU, Avg Pred: 0.4575
+  Value: TGO, Avg Pred: 0.3523
+  Value: ZAF, Avg Pred: 0.2791","PDP for 'Check-Out' - Country:
+Range 1.00 to 175.00
+  Value: AGO, Avg Pred: 0.7675
+  Value: BEN, Avg Pred: 0.7704
+  Value: CHN, Avg Pred: 0.7670
+  Value: DNK, Avg Pred: 0.7588
+  Value: GLP, Avg Pred: 0.7372
+  Value: ISL, Avg Pred: 0.7080
+  Value: LBN, Avg Pred: 0.6874
+  Value: MLI, Avg Pred: 0.6702
+  Value: OMN, Avg Pred: 0.5875
+  Value: SAU, Avg Pred: 0.5425
+  Value: TGO, Avg Pred: 0.6477
+  Value: ZAF, Avg Pred: 0.7209"
+total_of_special_requests,"PDP for 'Cancellation' - Total Of Special Requests:
+Range 0.00 to 5.00
+  Value: 0, Avg Pred: 0.4598
+  Value: 0, Avg Pred: 0.4598
+  Value: 0, Avg Pred: 0.4598
+  Value: 1, Avg Pred: 0.2922
+  Value: 1, Avg Pred: 0.2922
+  Value: 2, Avg Pred: 0.2380
+  Value: 2, Avg Pred: 0.2380
+  Value: 3, Avg Pred: 0.1809
+  Value: 3, Avg Pred: 0.1809
+  Value: 4, Avg Pred: 0.1134
+  Value: 4, Avg Pred: 0.1134
+  Value: 5, Avg Pred: 0.0770","PDP for 'Check-Out' - Total Of Special Requests:
+Range 0.00 to 5.00
+  Value: 0, Avg Pred: 0.5402
+  Value: 0, Avg Pred: 0.5402
+  Value: 0, Avg Pred: 0.5402
+  Value: 1, Avg Pred: 0.7078
+  Value: 1, Avg Pred: 0.7078
+  Value: 2, Avg Pred: 0.7620
+  Value: 2, Avg Pred: 0.7620
+  Value: 3, Avg Pred: 0.8191
+  Value: 3, Avg Pred: 0.8191
+  Value: 4, Avg Pred: 0.8866
+  Value: 4, Avg Pred: 0.8866
+  Value: 5, Avg Pred: 0.9230"
+adr,"PDP for 'Cancellation' - ADR:
+Range 0.00 to 388.00
+  Value: 0.0, Avg Pred: 0.2261
+  Value: 33.73913043478261, Avg Pred: 0.2352
+  Value: 67.47826086956522, Avg Pred: 0.2735
+  Value: 101.21739130434783, Avg Pred: 0.3469
+  Value: 140.57971014492753, Avg Pred: 0.3791
+  Value: 174.31884057971016, Avg Pred: 0.4104
+  Value: 208.05797101449275, Avg Pred: 0.4497
+  Value: 241.79710144927537, Avg Pred: 0.4792
+  Value: 281.15942028985506, Avg Pred: 0.5143
+  Value: 314.8985507246377, Avg Pred: 0.5476
+  Value: 348.6376811594203, Avg Pred: 0.5756
+  Value: 388.0, Avg Pred: 0.5992","PDP for 'Check-Out' - ADR:
+Range 0.00 to 388.00
+  Value: 0.0, Avg Pred: 0.7739
+  Value: 33.73913043478261, Avg Pred: 0.7648
+  Value: 67.47826086956522, Avg Pred: 0.7265
+  Value: 101.21739130434783, Avg Pred: 0.6531
+  Value: 140.57971014492753, Avg Pred: 0.6209
+  Value: 174.31884057971016, Avg Pred: 0.5896
+  Value: 208.05797101449275, Avg Pred: 0.5503
+  Value: 241.79710144927537, Avg Pred: 0.5208
+  Value: 281.15942028985506, Avg Pred: 0.4857
+  Value: 314.8985507246377, Avg Pred: 0.4524
+  Value: 348.6376811594203, Avg Pred: 0.4244
+  Value: 388.0, Avg Pred: 0.4008"
+arrival_date_week_number,"PDP for 'Cancellation' - Arrival Date Week Number:
+Range 1.00 to 53.00
+  Value: 1, Avg Pred: 0.3999
+  Value: 5, Avg Pred: 0.4066
+  Value: 10, Avg Pred: 0.3959
+  Value: 15, Avg Pred: 0.3694
+  Value: 19, Avg Pred: 0.3499
+  Value: 24, Avg Pred: 0.3353
+  Value: 29, Avg Pred: 0.3325
+  Value: 34, Avg Pred: 0.3361
+  Value: 38, Avg Pred: 0.3427
+  Value: 43, Avg Pred: 0.3557
+  Value: 48, Avg Pred: 0.3729
+  Value: 53, Avg Pred: 0.3885","PDP for 'Check-Out' - Arrival Date Week Number:
+Range 1.00 to 53.00
+  Value: 1, Avg Pred: 0.6001
+  Value: 5, Avg Pred: 0.5934
+  Value: 10, Avg Pred: 0.6041
+  Value: 15, Avg Pred: 0.6306
+  Value: 19, Avg Pred: 0.6501
+  Value: 24, Avg Pred: 0.6647
+  Value: 29, Avg Pred: 0.6675
+  Value: 34, Avg Pred: 0.6639
+  Value: 38, Avg Pred: 0.6573
+  Value: 43, Avg Pred: 0.6443
+  Value: 48, Avg Pred: 0.6271
+  Value: 53, Avg Pred: 0.6115"
+market_segment,"PDP for 'Cancellation' - Market Segment:
+Range 0.00 to 7.00
+  Value: Aviation, Avg Pred: 0.2544
+  Value: Aviation, Avg Pred: 0.2544
+  Value: Complementary, Avg Pred: 0.2512
+  Value: Complementary, Avg Pred: 0.2512
+  Value: Corporate, Avg Pred: 0.2554
+  Value: Direct, Avg Pred: 0.2792
+  Value: Direct, Avg Pred: 0.2792
+  Value: Groups, Avg Pred: 0.2573
+  Value: Offline TA/TO, Avg Pred: 0.2481
+  Value: Offline TA/TO, Avg Pred: 0.2481
+  Value: Online TA, Avg Pred: 0.4380
+  Value: Undefined, Avg Pred: 0.5126","PDP for 'Check-Out' - Market Segment:
+Range 0.00 to 7.00
+  Value: Aviation, Avg Pred: 0.7456
+  Value: Aviation, Avg Pred: 0.7456
+  Value: Complementary, Avg Pred: 0.7488
+  Value: Complementary, Avg Pred: 0.7488
+  Value: Corporate, Avg Pred: 0.7446
+  Value: Direct, Avg Pred: 0.7208
+  Value: Direct, Avg Pred: 0.7208
+  Value: Groups, Avg Pred: 0.7427
+  Value: Offline TA/TO, Avg Pred: 0.7519
+  Value: Offline TA/TO, Avg Pred: 0.7519
+  Value: Online TA, Avg Pred: 0.5620
+  Value: Undefined, Avg Pred: 0.4874"
+arrival_date_day_of_month,"PDP for 'Cancellation' - Arrival Date Day Of Month:
+Range 1.00 to 31.00
+  Value: 1, Avg Pred: 0.3488
+  Value: 3, Avg Pred: 0.3506
+  Value: 6, Avg Pred: 0.3553
+  Value: 9, Avg Pred: 0.3570
+  Value: 11, Avg Pred: 0.3566
+  Value: 14, Avg Pred: 0.3593
+  Value: 17, Avg Pred: 0.3650
+  Value: 20, Avg Pred: 0.3671
+  Value: 22, Avg Pred: 0.3664
+  Value: 25, Avg Pred: 0.3654
+  Value: 28, Avg Pred: 0.3628
+  Value: 31, Avg Pred: 0.3582","PDP for 'Check-Out' - Arrival Date Day Of Month:
+Range 1.00 to 31.00
+  Value: 1, Avg Pred: 0.6512
+  Value: 3, Avg Pred: 0.6494
+  Value: 6, Avg Pred: 0.6447
+  Value: 9, Avg Pred: 0.6430
+  Value: 11, Avg Pred: 0.6434
+  Value: 14, Avg Pred: 0.6407
+  Value: 17, Avg Pred: 0.6350
+  Value: 20, Avg Pred: 0.6329
+  Value: 22, Avg Pred: 0.6336
+  Value: 25, Avg Pred: 0.6346
+  Value: 28, Avg Pred: 0.6372
+  Value: 31, Avg Pred: 0.6418"
+previous_cancellations,"PDP for 'Cancellation' - Previous Cancellations:
+Range 0.00 to 26.00
+  Value: 0, Avg Pred: 0.3528
+  Value: 2, Avg Pred: 0.7183
+  Value: 4, Avg Pred: 0.7010
+  Value: 7, Avg Pred: 0.6592
+  Value: 9, Avg Pred: 0.6397
+  Value: 11, Avg Pred: 0.6283
+  Value: 14, Avg Pred: 0.6228
+  Value: 16, Avg Pred: 0.6254
+  Value: 18, Avg Pred: 0.6324
+  Value: 21, Avg Pred: 0.6484
+  Value: 23, Avg Pred: 0.6607
+  Value: 26, Avg Pred: 0.6813","PDP for 'Check-Out' - Previous Cancellations:
+Range 0.00 to 26.00
+  Value: 0, Avg Pred: 0.6472
+  Value: 2, Avg Pred: 0.2817
+  Value: 4, Avg Pred: 0.2990
+  Value: 7, Avg Pred: 0.3408
+  Value: 9, Avg Pred: 0.3603
+  Value: 11, Avg Pred: 0.3717
+  Value: 14, Avg Pred: 0.3772
+  Value: 16, Avg Pred: 0.3746
+  Value: 18, Avg Pred: 0.3676
+  Value: 21, Avg Pred: 0.3516
+  Value: 23, Avg Pred: 0.3393
+  Value: 26, Avg Pred: 0.3187"
+arrival_date_month,"PDP for 'Cancellation' - Arrival Date Month:
+Range 0.00 to 11.00
+  Value: January, Avg Pred: 0.3657
+  Value: February, Avg Pred: 0.3629
+  Value: March, Avg Pred: 0.3609
+  Value: April, Avg Pred: 0.3611
+  Value: May, Avg Pred: 0.3625
+  Value: June, Avg Pred: 0.3656
+  Value: July, Avg Pred: 0.3688
+  Value: August, Avg Pred: 0.3705
+  Value: September, Avg Pred: 0.3730
+  Value: October, Avg Pred: 0.3739
+  Value: November, Avg Pred: 0.3711
+  Value: December, Avg Pred: 0.3649","PDP for 'Check-Out' - Arrival Date Month:
+Range 0.00 to 11.00
+  Value: January, Avg Pred: 0.6343
+  Value: February, Avg Pred: 0.6371
+  Value: March, Avg Pred: 0.6391
+  Value: April, Avg Pred: 0.6389
+  Value: May, Avg Pred: 0.6375
+  Value: June, Avg Pred: 0.6344
+  Value: July, Avg Pred: 0.6312
+  Value: August, Avg Pred: 0.6295
+  Value: September, Avg Pred: 0.6270
+  Value: October, Avg Pred: 0.6261
+  Value: November, Avg Pred: 0.6289
+  Value: December, Avg Pred: 0.6351"
+stays_in_week_nights,"PDP for 'Cancellation' - Stays In Week Nights:
+Range 0.00 to 26.00
+  Value: 0, Avg Pred: 0.3377
+  Value: 2, Avg Pred: 0.3640
+  Value: 4, Avg Pred: 0.3773
+  Value: 7, Avg Pred: 0.4373
+  Value: 9, Avg Pred: 0.4798
+  Value: 11, Avg Pred: 0.5003
+  Value: 14, Avg Pred: 0.4890
+  Value: 16, Avg Pred: 0.4676
+  Value: 18, Avg Pred: 0.4450
+  Value: 21, Avg Pred: 0.4095
+  Value: 23, Avg Pred: 0.3833
+  Value: 26, Avg Pred: 0.3444","PDP for 'Check-Out' - Stays In Week Nights:
+Range 0.00 to 26.00
+  Value: 0, Avg Pred: 0.6623
+  Value: 2, Avg Pred: 0.6360
+  Value: 4, Avg Pred: 0.6227
+  Value: 7, Avg Pred: 0.5627
+  Value: 9, Avg Pred: 0.5202
+  Value: 11, Avg Pred: 0.4997
+  Value: 14, Avg Pred: 0.5110
+  Value: 16, Avg Pred: 0.5324
+  Value: 18, Avg Pred: 0.5550
+  Value: 21, Avg Pred: 0.5905
+  Value: 23, Avg Pred: 0.6167
+  Value: 26, Avg Pred: 0.6556"
+booking_changes,"PDP for 'Cancellation' - Booking Changes:
+Range 0.00 to 20.00
+  Value: 0, Avg Pred: 0.3801
+  Value: 1, Avg Pred: 0.2616
+  Value: 3, Avg Pred: 0.2184
+  Value: 5, Avg Pred: 0.1621
+  Value: 7, Avg Pred: 0.1090
+  Value: 9, Avg Pred: 0.0777
+  Value: 10, Avg Pred: 0.0687
+  Value: 12, Avg Pred: 0.0601
+  Value: 14, Avg Pred: 0.0572
+  Value: 16, Avg Pred: 0.0553
+  Value: 18, Avg Pred: 0.0540
+  Value: 20, Avg Pred: 0.0511","PDP for 'Check-Out' - Booking Changes:
+Range 0.00 to 20.00
+  Value: 0, Avg Pred: 0.6199
+  Value: 1, Avg Pred: 0.7384
+  Value: 3, Avg Pred: 0.7816
+  Value: 5, Avg Pred: 0.8379
+  Value: 7, Avg Pred: 0.8910
+  Value: 9, Avg Pred: 0.9223
+  Value: 10, Avg Pred: 0.9313
+  Value: 12, Avg Pred: 0.9399
+  Value: 14, Avg Pred: 0.9428
+  Value: 16, Avg Pred: 0.9447
+  Value: 18, Avg Pred: 0.9460
+  Value: 20, Avg Pred: 0.9489"
+stays_in_weekend_nights,"PDP for 'Cancellation' - Stays In Weekend Nights:
+Range 0.00 to 12.00
+  Value: 0, Avg Pred: 0.3523
+  Value: 1, Avg Pred: 0.3597
+  Value: 2, Avg Pred: 0.3691
+  Value: 3, Avg Pred: 0.3817
+  Value: 4, Avg Pred: 0.4096
+  Value: 5, Avg Pred: 0.4475
+  Value: 6, Avg Pred: 0.4781
+  Value: 7, Avg Pred: 0.5008
+  Value: 8, Avg Pred: 0.5178
+  Value: 9, Avg Pred: 0.5330
+  Value: 10, Avg Pred: 0.5480
+  Value: 12, Avg Pred: 0.5755","PDP for 'Check-Out' - Stays In Weekend Nights:
+Range 0.00 to 12.00
+  Value: 0, Avg Pred: 0.6477
+  Value: 1, Avg Pred: 0.6403
+  Value: 2, Avg Pred: 0.6309
+  Value: 3, Avg Pred: 0.6183
+  Value: 4, Avg Pred: 0.5904
+  Value: 5, Avg Pred: 0.5525
+  Value: 6, Avg Pred: 0.5219
+  Value: 7, Avg Pred: 0.4992
+  Value: 8, Avg Pred: 0.4822
+  Value: 9, Avg Pred: 0.4670
+  Value: 10, Avg Pred: 0.4520
+  Value: 12, Avg Pred: 0.4245"
+reserved_room_type,"PDP for 'Cancellation' - Reserved Room Type:
+Range 0.00 to 9.00
+  Value: Standard Room, Avg Pred: 0.3642
+  Value: Standard Room, Avg Pred: 0.3642
+  Value: Deluxe Room, Avg Pred: 0.3602
+  Value: Family Room, Avg Pred: 0.3547
+  Value: Suite Room, Avg Pred: 0.3446
+  Value: Executive Room, Avg Pred: 0.3302
+  Value: Executive Room, Avg Pred: 0.3302
+  Value: Superior Room, Avg Pred: 0.3194
+  Value: Penthouse Suite, Avg Pred: 0.3107
+  Value: Junior Suite, Avg Pred: 0.3002
+  Value: Luxury Room, Avg Pred: 0.2884
+  Value: Presidential Suite, Avg Pred: 0.2746","PDP for 'Check-Out' - Reserved Room Type:
+Range 0.00 to 9.00
+  Value: Standard Room, Avg Pred: 0.6358
+  Value: Standard Room, Avg Pred: 0.6358
+  Value: Deluxe Room, Avg Pred: 0.6398
+  Value: Family Room, Avg Pred: 0.6453
+  Value: Suite Room, Avg Pred: 0.6554
+  Value: Executive Room, Avg Pred: 0.6698
+  Value: Executive Room, Avg Pred: 0.6698
+  Value: Superior Room, Avg Pred: 0.6806
+  Value: Penthouse Suite, Avg Pred: 0.6893
+  Value: Junior Suite, Avg Pred: 0.6998
+  Value: Luxury Room, Avg Pred: 0.7116
+  Value: Presidential Suite, Avg Pred: 0.7254"
+adults,"PDP for 'Cancellation' - Adults:
+Range 0.00 to 26.00
+  Value: 0, Avg Pred: 0.3912
+  Value: 2, Avg Pred: 0.3703
+  Value: 4, Avg Pred: 0.2856
+  Value: 7, Avg Pred: 0.2896
+  Value: 9, Avg Pred: 0.3230
+  Value: 11, Avg Pred: 0.3453
+  Value: 14, Avg Pred: 0.3683
+  Value: 16, Avg Pred: 0.3757
+  Value: 18, Avg Pred: 0.3826
+  Value: 21, Avg Pred: 0.3876
+  Value: 23, Avg Pred: 0.3892
+  Value: 26, Avg Pred: 0.3904","PDP for 'Check-Out' - Adults:
+Range 0.00 to 26.00
+  Value: 0, Avg Pred: 0.6088
+  Value: 2, Avg Pred: 0.6297
+  Value: 4, Avg Pred: 0.7144
+  Value: 7, Avg Pred: 0.7104
+  Value: 9, Avg Pred: 0.6770
+  Value: 11, Avg Pred: 0.6547
+  Value: 14, Avg Pred: 0.6317
+  Value: 16, Avg Pred: 0.6243
+  Value: 18, Avg Pred: 0.6174
+  Value: 21, Avg Pred: 0.6124
+  Value: 23, Avg Pred: 0.6108
+  Value: 26, Avg Pred: 0.6096"
+hotel,"PDP for 'Cancellation' - Hotel:
+Range 0.00 to 1.00
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: City Hotel, Avg Pred: 0.3553
+  Value: Resort Hotel, Avg Pred: 0.3568","PDP for 'Check-Out' - Hotel:
+Range 0.00 to 1.00
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: City Hotel, Avg Pred: 0.6447
+  Value: Resort Hotel, Avg Pred: 0.6432"
+children,"PDP for 'Cancellation' - Children:
+Range 0.00 to 3.00
+  Value: 0, Avg Pred: 0.3646
+  Value: 0, Avg Pred: 0.3646
+  Value: 0, Avg Pred: 0.3646
+  Value: 0, Avg Pred: 0.3646
+  Value: 1, Avg Pred: 0.3554
+  Value: 1, Avg Pred: 0.3554
+  Value: 1, Avg Pred: 0.3554
+  Value: 1, Avg Pred: 0.3554
+  Value: 2, Avg Pred: 0.3670
+  Value: 2, Avg Pred: 0.3670
+  Value: 2, Avg Pred: 0.3670
+  Value: 3, Avg Pred: 0.3734","PDP for 'Check-Out' - Children:
+Range 0.00 to 3.00
+  Value: 0, Avg Pred: 0.6354
+  Value: 0, Avg Pred: 0.6354
+  Value: 0, Avg Pred: 0.6354
+  Value: 0, Avg Pred: 0.6354
+  Value: 1, Avg Pred: 0.6446
+  Value: 1, Avg Pred: 0.6446
+  Value: 1, Avg Pred: 0.6446
+  Value: 1, Avg Pred: 0.6446
+  Value: 2, Avg Pred: 0.6330
+  Value: 2, Avg Pred: 0.6330
+  Value: 2, Avg Pred: 0.6330
+  Value: 3, Avg Pred: 0.6266"

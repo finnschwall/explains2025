@@ -1,0 +1,186 @@
+{
+  "name": "promptvariations_accuracy",
+  "description": "prompt and accuracy",
+  "variations": {
+    "final_prompt_type": {
+      "type": "NamedCategories",
+      "name": "final_prompt_type",
+      "values": [
+        {
+          "category": "direct_answers",
+          "value": "Above is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nAll XAI methods are based on this classifier.\nThe overall accuracy of the trained classifier is {accuracy}. \n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "direct_answers",
+          "value": "You are the final decision-maker in a hotel booking system. You have an AI assistant for predicting whether the booking will result in a \"Cancellation\" or \"Check-Out\".\nTo critically assess the AI's recommendation there may be XAI methods available that provide insights into the AI's decision-making process.\nBut ultimately it is only up to your expertise to make the final call. The AI assistants accuracy is {accuracy}.\n\nDecide! Only write #CANCELLATION# or #CHECK-OUT#\nDont provide any reasoning!"
+        },
+        {
+          "category": "direct_answers",
+          "value": "You are analyzing hotel booking data with XAI explanations to determine the outcome. An AI model with {accuracy} accuracy has made a prediction about whether this booking will end in \"Cancellation\" or \"Check-out\".\nYour task is to review all available information and make the final determination.\nRespond immediately with only #CANCELLATION# or #CHECK-OUT# - no explanations needed."
+        },
+        {
+          "category": "direct_answers",
+          "value": "Hotel booking prediction task: Based on the provided data and XAI method outputs, you must classify this booking as either \"Cancellation\" or \"Check-out\".\nThe supporting AI classifier achieves {accuracy} accuracy on this task.\nMake your decision now. Output only #CANCELLATION# or #CHECK-OUT# with no additional text."
+        },
+        {
+          "category": "direct_answers",
+          "value": "As a hotel management expert, you're presented with booking data and explainable AI insights to predict the final outcome. The AI system you're working with has an accuracy rate of {accuracy}.\nYour job is to determine if this booking will result in \"Cancellation\" or \"Check-out\".\nGive your immediate decision: #CANCELLATION# or #CHECK-OUT# only."
+        },
+        {
+          "category": "direct_answers",
+          "value": "You have access to hotel booking features and XAI explanations from a prediction model with {accuracy} accuracy. This model is designed to forecast whether bookings end in \"Cancellation\" or \"Check-out\".\nExamine the evidence and make your classification decision.\nAnswer with just #CANCELLATION# or #CHECK-OUT# - do not elaborate."
+        },
+        {
+          "category": "direct_answers",
+          "value": "Hotel booking outcome prediction: You're evaluating a booking case using data features and explainable AI methods. The underlying classifier has {accuracy} accuracy for predicting \"Cancellation\" vs \"Check-out\" outcomes.\nBased on all available information, make your binary classification decision.\nRespond with #CANCELLATION# or #CHECK-OUT# immediately - no reasoning required."
+        },
+        {
+          "category": "direct_answers",
+          "value": "This is a hotel booking classification scenario. You have booking data, AI predictions, and XAI explanations at your disposal. The AI model demonstrates {accuracy} accuracy in distinguishing between \"Cancellation\" and \"Check-out\" cases.\nYour role is to make the final prediction for this specific booking.\nState your decision as #CANCELLATION# or #CHECK-OUT# without any justification."
+        },
+        {
+          "category": "cot",
+          "value": "Above is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nAll XAI methods are based on this classifier.\nThis AI system is there to support you in your decision. However you should not blindly follow its recommendation! The overall accuracy of the trained classifier is {accuracy}. Explain your decision whether to select \"Cancellation\" or \"Check-out\".\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "You are the final decision-maker in a hotel booking system. You have an AI assistant for predicting whether the booking will result in a \"Cancellation\" or \"Check-Out\".\nTo critically assess the AI's recommendation there may be XAI methods available that provide insights into the AI's decision-making process.\nBut ultimately it is up to you to make the final call. The AI assistants accuracy is {accuracy}.\n\nThink step by step:\n1. First, analyze what the AI system is telling you\n2. Consider the confidence score and accuracy\n3. Evaluate the XAI explanations\n4. Make your final decision\n\nExplain your reasoning process and make a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "You oversee hotel booking strategy and need to predict whether this booking leads to \"Cancellation\" or \"Check-out\". An AI tool provides predictions with XAI method insights, but strategic decisions require human judgment.\n\nContext: Your AI assistant has {accuracy} accuracy - valuable but not infallible.\n\nApply strategic thinking: Write down your reasoning process step-by-step:\n\nOutline your strategic reasoning and determine by writing finally: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "You're performing quality assurance on hotel booking predictions. An AI system has classified this booking as likely \"Cancellation\" or \"Check-out\" with accompanying XAI explanations.\n\nYour QA responsibility: Verify or correct the AI's assessment.\n\nConduct your quality check:\n- Scrutinize the AI's prediction logic and confidence\n- Cross-reference with the infos you have\n- Validate the XAI explanations against booking characteristics\n- Identify any red flags or inconsistencies\n\nDocument your QA findings and approve/override with: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "A hotel booking requires outcome prediction: will it result in \"Cancellation\" or \"Check-out\"? You have an AI classifier's prediction plus XAI method outputs as evidence.\n\nKey constraint: The AI system's accuracy is {accuracy} - use this to calibrate your trust level.\n\nLay out a strategy how to go at this task. Then use this strategy to come to a decision.\n\nPresent your evidence-based reasoning and conclude with writing: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "You're collaborating with an AI system to predict hotel booking outcomes. The AI analyzes booking features and suggests either \"Cancellation\" or \"Check-out\", supported by XAI explanations of its reasoning.\n\nYour role: Partner with the AI while maintaining decision authority.\n\nWork through this collaboration:\n- First, understand what the AI detected in the booking patterns\n- Evaluate the confidence score against the {accuracy} system performance\n- Interpret the XAI explanations for meaningful insights\n- Combine AI insights with your domain expertise\n\nDocument your collaborative reasoning process and choose: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "You work in hotel operations and must determine if a booking will result in \"Cancellation\" or \"Check-out\". An AI assistant provides predictions with XAI method explanations, but you must critically evaluate its recommendations.\n\nImportant: The AI has {accuracy} accuracy - neither perfect nor unreliable.\n\nCritically assess and provide a chain of thought.\n\nThen decide by writing: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "cot",
+          "value": "As a hotel revenue manager, you must predict booking outcomes to optimize operations. You have access to an AI system that predicts \"Cancellation\" vs \"Check-out\" outcomes, along with XAI explanations showing how it reached its conclusions.\n\nThe AI system achieves {accuracy} accuracy, but business decisions require oversight.\n\nAnalyze this step-by-step:\n\nThen provide your reasoning and final decision: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "emotional_tone",
+          "value": "Above is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nAll XAI methods are based on this classifier.\nThis AI system is there to support you in your decision. However you should not blindly follow its recommendation! The overall accuracy of the trained classifier is {accuracy}. Explain your decision whether to select \"Cancellation\" or \"Check-out\".\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "emotional_tone",
+          "value": "URGENT: You must make a critical decision about a hotel booking situation that could have significant consequences!\nAbove is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nThe overall accuracy of the trained classifier is {accuracy}. Time is of the essence - analyze quickly but thoroughly!\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "emotional_tone",
+          "value": "This decision affects real people and their travel experiences. A guest's vacation or business trip hangs in the balance.\nAbove is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nThe overall accuracy of the trained classifier is {accuracy}. Please consider the human impact of your choice carefully.\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "emotional_tone",
+          "value": "This is a high-stakes decision that could result in lost revenue or customer dissatisfaction! Every choice matters in the competitive hospitality industry.\nAbove is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nThe overall accuracy of the trained classifier is {accuracy}. The pressure is on - make the right call!\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "emotional_tone",
+          "value": "Someone's travel plans depend on getting this decision right. Imagine if this were your own booking - what would you want someone to choose?\nAbove is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nThe overall accuracy of the trained classifier is {accuracy}. Please make a compassionate, well-reasoned choice.\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "emotional_tone",
+          "value": "CRITICAL ALERT: Incorrect decisions in this system have led to significant financial losses and customer complaints in the past!\nAbove is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nThe overall accuracy of the trained classifier is {accuracy}. The consequences of error are severe - proceed with maximum caution!\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "emotional_tone",
+          "value": "You have the expertise and insight to make the right call\u2014trust your judgment! Above is data with XAI methods from a hotel booking system.\nYou need to decide between 'Cancellation' or 'Check-out.' An AI system predicts the target variable with {accuracy} accuracy, but your intuition is invaluable.\nTake charge and choose wisely!\"  \nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "emotional_tone",
+          "value": "\"\n\"Breathe\u2014this decision is important, but you\u2019ve got this. The XAI data from the hotel booking system is above, along with the AI\u2019s prediction (confidence: {accuracy}).\nWhether you choose 'Cancellation' or 'Check-out,' stay composed\"\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_distrust",
+          "value": "Above is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nAll XAI methods are based on this classifier.\nThis AI system is there to support you in your decision. However you should not blindly follow its recommendation! The overall accuracy of the trained classifier is {accuracy}. Explain your decision whether to select \"Cancellation\" or \"Check-out\".\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_distrust",
+          "value": "You are the final decision-maker in a hotel booking system. You have an AI assistant for predicting whether the booking will result in a \"Cancellation\" or \"Check-Out\".\nTo critically assess the AI's recommendation there may be XAI methods available that provide insights into the AI's decision-making process.\nBut ultimately it is only up to your expertise to make the final call. The AI assistants accuracy is {accuracy}.\nDo not trust this AI system without careful verification. Machine learning models are prone to mistakes.\n\nMake a final judgement by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_distrust",
+          "value": "You are reviewing hotel booking data with explainable AI (XAI) analysis results. An automated system predicts \"Cancellation\" vs \"Check-out\" outcomes, showing {accuracy} accuracy.\nWhile the AI provides useful insights through various XAI methods, remember that these systems can be unreliable and biased. Exercise your professional judgment to override the AI when necessary.\nAnalyze the provided data and XAI explanations critically before making your determination.\n\nMake your decision by writing either #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_distrust",
+          "value": "Hotel booking data is presented below with XAI analysis from a predictive model. This AI system attempts to forecast \"Cancellation\" versus \"Check-out\" with an overall performance of {accuracy}.\nMachine learning models often fail in unexpected ways and can be influenced by spurious correlations. Do not assume the AI's reasoning is sound.\nUse the XAI outputs as one input among many, but rely primarily on your own analytical skills to reach a conclusion.\n\nState your decision as either #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_distrust",
+          "value": "You are tasked with hotel booking outcome prediction using AI-assisted decision making. The system predicts \"Cancellation\" or \"Check-out\" with {accuracy} accuracy, supported by XAI method visualizations.\nBe aware that AI systems can perpetuate biases, overfit to irrelevant features, or fail on edge cases not seen during training.\nYour role is to serve as a human-in-the-loop validator who questions the AI's logic and makes corrections when needed.\n\nProvide your final judgment: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_distrust",
+          "value": "Below you'll find hotel booking information along with predictions and XAI explanations from an automated classifier (accuracy: {accuracy}). Your job is to determine the correct outcome: \"Cancellation\" or \"Check-out\".\nRemember that AI systems, despite their sophistication, are fallible tools that can misinterpret data or rely on flawed assumptions.\nExamine the evidence independently and don't defer automatically to the machine's assessment.\n\nChoose either #CANCELLATION# or #CHECK-OUT# based on your analysis."
+        },
+        {
+          "category": "ai_distrust",
+          "value": "As a hotel operations specialist, you're evaluating booking data with AI predictions for \"Cancellation\" vs \"Check-out\" scenarios. The supporting AI model shows {accuracy} accuracy and provides XAI interpretations.\nAutomated decision systems are known to have blind spots and can confidently make wrong predictions. Your expertise is crucial for identifying when the AI has gone astray.\nTreat the AI output as advisory only and make your own informed decision based on all available evidence.\n\nRecord your conclusion as #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_distrust",
+          "value": "Hotel booking outcome classification task: determine whether the result will be \"Cancellation\" or \"Check-out\". You have access to an AI predictor with {accuracy} accuracy plus corresponding XAI method outputs.\nExercise healthy skepticism toward the AI recommendations. These systems can be overconfident in incorrect predictions and may have learned misleading patterns.\nYour judgment is the final authority in this decision-making process.\n\nSubmit your determination: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_trust",
+          "value": "Above is data with XAI methods from a hotel booking system. You need to decide whether or not to select \"Cancellation\" or \"Check-out\"\nAn AI system has been trained to predict the target variable \"Cancellation\" based on the datapoint features. You also see its output and its confidence score.\nAll XAI methods are based on this classifier.\nThis AI system is there to support you in your decision. The overall accuracy of the trained classifier is {accuracy}, which is pretty good.\n\nMake a decision by either writing #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_trust",
+          "value": "You are the final decision-maker in a hotel booking system. You have an AI assistant for predicting whether the booking will result in a \"Cancellation\" or \"Check-Out\".\nTo assess the AI's recommendation there may be XAI methods available that provide insights into the AI's decision-making process.\nIt is up to you to make the final call, however keep in mind that the AI assistants accuracy is an impressive {accuracy}.\nThe AI system is there to support you!\n\nNow use the AIs prediction to make the final call. Write #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_trust",
+          "value": "You are managing a hotel booking system and need to determine the outcome for each reservation. An intelligent AI classifier has been designed to predict whether bookings will end in \"Cancellation\" or \"Check-out\" with an accuracy rate of {accuracy}.\nThe system provides XAI explanations to help you understand the reasoning behind each prediction. This AI tool has proven to be reliable in similar scenarios.\nBased on the AI's analysis and supporting explanations, make your decision by selecting either #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_trust",
+          "value": "As a hotel operations manager, you're tasked with predicting booking outcomes using an advanced AI prediction system. The AI analyzes booking data to forecast whether guests will \"Cancel\" or successfully \"Check-out\".\nXAI methods are available to provide transparency into the AI's decision process. The system maintains an excellent accuracy of {accuracy}, making it a trustworthy decision-support tool.\nReview the AI's recommendation and explanatory insights, then make your final determination: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_trust",
+          "value": "In this hotel reservation management scenario, you have access to a sophisticated AI assistant that predicts booking outcomes. The AI determines whether reservations will result in \"Cancellation\" or \"Check-out\" based on comprehensive data analysis.\nThe AI system achieves {accuracy} accuracy and has been validated as a dependable forecasting tool. XAI interpretability methods are provided to give you insight into the prediction rationale.\nTrust the AI's expertise while making your decision. Choose either #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_trust",
+          "value": "You are overseeing hotel booking predictions with the assistance of an AI system trained to classify reservations as either \"Cancellation\" or \"Check-out\". The AI processes booking features and provides confidence-rated predictions.\nSupporting XAI explanations reveal the key factors influencing each prediction. With an impressive {accuracy} performance rate, this AI system has established itself as a reliable partner in booking management.\nMake your decision based on the AI's guidance: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_trust",
+          "value": "Your role involves making critical decisions about hotel booking outcomes using an AI-powered prediction system. The system evaluates reservation data to determine whether bookings will end in \"Cancellation\" or \"Check-out\".\nXAI methods provide clear explanations of the AI's reasoning process. This trusted AI assistant maintains {accuracy} accuracy, demonstrating consistent reliability in booking outcome predictions.\nAfter reviewing the AI's analysis and explanations, decide: #CANCELLATION# or #CHECK-OUT#."
+        },
+        {
+          "category": "ai_trust",
+          "value": "You are the decision authority for a hotel booking prediction system. An AI classifier has been trained to distinguish between \"Cancellation\" and \"Check-out\" outcomes using booking characteristics and historical patterns.\nThe AI provides predictions with confidence scores, supported by XAI explanations for transparency. Given its {accuracy} accuracy rate, this AI system has proven to be an invaluable and trustworthy decision-making resource.\nBased on the AI's recommendation and explanatory evidence, choose: #CANCELLATION# or #CHECK-OUT#."
+        }
+      ]
+    },
+    "accuracy": {
+      "type": "SequentialRange",
+      "name": "accuracy",
+      "values": [
+        49.99,
+        65.97,
+        79.05,
+        95.0
+      ]
+    }
+  },
+  "max_datapoints": 30,
+  "verbose": false,
+  "output_dir": "experiments",
+  "no_llm": false
+}

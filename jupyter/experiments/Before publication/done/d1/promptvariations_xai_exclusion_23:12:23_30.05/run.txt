@@ -1,0 +1,4 @@
+Current run: 30720/30720
+Total time elapsed: 1097.08m, 65824.98s
+Avg. time per run: 2.14s
+Exp. time left: 0.00 minutes
